@@ -6,6 +6,7 @@ import Home from './routes/Home';
 import Disiplines from './routes/Disciplines';
 import Club from './routes/Club';
 import Contact from './routes/Contact';
+import Events from './routes/Events';
 
 const router = createBrowserRouter([
     {
@@ -14,7 +15,7 @@ const router = createBrowserRouter([
         errorElement: <h1>Error</h1>
     },
     {
-        path: "/disiplines",
+        path: "/disiplinas",
         element: <Disiplines/>,
     },
     {
@@ -22,7 +23,11 @@ const router = createBrowserRouter([
         element: <Club/>,
     },
     {
-        path: "/contact",
+        path: "/eventos",
+        element: <Events/>,
+    },
+    {
+        path: "/contacto",
         element: <Contact/>,
     }
 ])

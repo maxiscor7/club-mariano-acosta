@@ -1,11 +1,11 @@
 import NavBrowser from "../components/NavBrowser";
 
-export default function Home(){
-
+export default function Events(){
+    
     return (
         <div>
             <NavBrowser/>
-            <h1>Home</h1>
+            <h1>Eventos</h1>
         </div>
     )
 }
