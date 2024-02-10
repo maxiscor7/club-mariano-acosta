@@ -6,6 +6,7 @@ export default function Home(){
         <div>
             <NavBrowser/>
             <h1>Home</h1>
+            <h2>Works</h2>
         </div>
     )
 }
