@@ -1,0 +1,22 @@
+.container-footer{
+    width: 100%;
+    height: 200px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 30px;
+}
+.container-footer p{
+    background-color: black;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    margin: 5px;
+}
+
+@media only screen and (max-width: 575px) {
+    .container-footer{
+        padding-left: 0;
+        text-align: center;
+    }
+  }
