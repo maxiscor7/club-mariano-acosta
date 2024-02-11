@@ -16,7 +16,7 @@ export default function Home() {
                 <div className="card">
                     <img src={hockey} alt="hockey" />
                     <div className="container-textCard">
-                        <h4>HOCKEY CLUB SOCIAL Y DEPORTIVO MARIANO MORENO</h4>
+                        <h4>HOCKEY CLUB SOCIAL Y DEPORTIVO MARIANO ACOSTA</h4>
                         <p>"Venite y sumate" - "Planteles femeninos y masculinos"</p>
                         <p>En febrero arrancamos los entrenamientos para la temporada 2024, todas las categorias 10ma, 9na, 8va, 7ma, 6ta, 5ta, primera division, mamis y Equipo masculino.</p>
                         <h4>¡ANOTATE AHORA!</h4>

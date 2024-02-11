@@ -45,7 +45,7 @@ export default function NavBrowser() {
                 <img src={logo} alt='logo club social y deportivo mariano moreno' />
                 <div className='container-tit'>
                     <h2>Club Social y Deportivo</h2>
-                    <h1>MARIANO MORENO</h1>
+                    <h1>MARIANO ACOSTA</h1>
                 </div>
             </div>
 
