@@ -29,6 +29,7 @@
 .buttonBrowser{
     cursor: pointer;
 }
+
 #button-link-desactive{
     background-color: white;
     color: #1c3168;
@@ -36,6 +37,7 @@
     font-family: 'Roboto', sans-serif;
     
 }
+
 #button-link-active{
     
     background-color: rgb(227, 224, 221);
@@ -55,8 +57,7 @@
     font-family: 'Roboto', sans-serif;
     
 }
-.buttonBrowser a.active{
-    
+.buttonBrowser a.active{  
     border-bottom: 5px solid rgb(19, 71, 135);
     color: #1c3168;
     font-size: 25px;
@@ -96,8 +97,11 @@
     padding: 3px;
     margin: 3px;
     font-family: 'Roboto', sans-serif;
+    cursor: pointer;
 }
-
+.disiplina-item:hover{
+    opacity: 0.5;
+}
 
 .hidden {
     display: none;

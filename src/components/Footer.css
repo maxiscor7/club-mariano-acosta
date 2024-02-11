@@ -1,5 +1,13 @@
-.container-footer{
+footer{
+    display: flex;
+    flex-wrap: wrap;
     width: 100%;
+    background-color: black;
+    justify-content: space-between;
+    padding-bottom: 30px;
+}
+.container-footer{
+    width: 900px;
     height: 200px;
     background-color: black;
     display: flex;
@@ -13,10 +21,26 @@
     font-family: 'Roboto', sans-serif;
     margin: 5px;
 }
+.container-maxysdesigndigital {
+    display: flex;
+    background-color: black;
+    width: 360px;
+    justify-content: center;
+    align-items: center;
+}
+.container-maxysdesigndigital p{
+    color: white;
+    background-color: black;
+    font-family: 'Roboto', sans-serif;
+
+}
 
 @media only screen and (max-width: 575px) {
     .container-footer{
         padding-left: 0;
         text-align: center;
+    }
+    footer{
+    justify-content: center;
     }
   }

@@ -9,6 +9,9 @@ export default function Footer() {
                 <p>Redes Sociales: Facebook | Twitter | Instagram</p>
                 <p>Trabaja con Nosotros</p>
             </div>
+            <div className='container-maxysdesigndigital'>
+                <p>Desarrollado por © maxysdesigndigital</p>
+            </div>
         </footer>
     );
 };
