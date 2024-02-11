@@ -4,8 +4,24 @@ import logo from "../assets/logo.png";
 import { useState } from 'react';
 
 export default function NavBrowser() {
-    const disiplinasData = ['Taekwondo', 'Patin artístico', 'Kick Boxing', 'Ritmos urbanos', 'Zumba', 'Taebo', 'Hockey', 'Rock', 'Vóley', 'Fútbol femenino', 'Taekwondo', 'Reggaetón infantil', 'Acro dance', 'Fútbol masculino', 'Escuela de padle', 'Básquetbol'];
-    const elClub = ['Historia', 'Instalaciones'];
+    const disiplinasData = [
+        { nombre: 'Taekwondo', ruta: '/taekwondo' },
+        { nombre: 'Patin artístico', ruta: '/partin-artistico' },
+        { nombre: 'Kick Boxing', ruta: '/kick-boxing' },
+        { nombre: 'Ritmos urbanos', ruta: '/ritmos-urbanos' },
+        { nombre: 'Zumba', ruta: '/zumba' },
+        { nombre: 'Taebo', ruta: '/taebo' },
+        { nombre: 'Hockey', ruta: '/hockey' },
+        { nombre: 'Rock', ruta: '/rock' },
+        { nombre: 'Vóley', ruta: '/voley' },
+        { nombre: 'Fútbol femenino', ruta: '/futbol-femenino' },
+        { nombre: 'Reggaetón infantil', ruta: '/reggaeton-infantil' },
+        { nombre: 'Acro dance', ruta: '/acro-dance' },
+        { nombre: 'Fútbol masculino', ruta: '/futbol-masculino' },
+        { nombre: 'Escuela de padle', ruta: '/escuela-de-padle' },
+        { nombre: 'Básquetbol', ruta: '/basquetbol' }];
+
+    const elClub = [{ nombre: 'Historia', ruta: '/historia' }, { nombre: 'Instalaciones', ruta: '/instalaciones' }];
 
     const [showDisciplinas, setShowDisciplinas] = useState(false);
     const [showClub, setShowClub] = useState(false);
@@ -56,14 +72,26 @@ export default function NavBrowser() {
             <div className={`${showDisciplinas ? 'hide-div-disciplinas' : 'hidden'}`}>
                 {disiplinasData.map((disciplina, index) => (
                     <div key={index} className='disiplina-item'>
-                        {disciplina}
+                        <NavLink
+                        id='button-link'
+                        style={{ textDecoration: 'none', color:'white' }}
+                        to={disciplina.ruta}
+                        >
+                            {disciplina.nombre}
+                        </NavLink>
                     </div>
                 ))}
             </div>
             <div className={`${showClub ? 'hide-div-club' : 'hiddenClub'}`}>
                 {elClub.map((club, index) => (
                     <div key={index} className='disiplina-item'>
-                        {club}
+                        <NavLink
+                            id='button-link'
+                            style={{ textDecoration: 'none', color:'white' }}
+                            to={club.ruta}
+                        >
+                            {club.nombre}
+                        </NavLink>
                     </div>
                 ))}
             </div>
