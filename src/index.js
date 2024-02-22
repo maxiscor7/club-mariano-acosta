@@ -11,7 +11,7 @@ import KickBoxing from './routes/KickBoxing';
 import RitmosUrbanos from './routes/RitmosUrbanos';
 import Zumba from './routes/Zumba';
 import Taebo from './routes/Taebo';
-import Hockey from './routes/Hockey';
+import Hockey from './routes/Hockey/Hockey';
 import Rock from './routes/Rock';
 import Voley from './routes/Voley/Voley';
 import FutbolFemenino from './routes/FutbolFemenino';
