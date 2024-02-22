@@ -1,136 +1,152 @@
-.container-voley {
-    position: relative;
-    width: 100%;
-    overflow: hidden;
-}
 
-.banner-container {
+.container-banner-voley {
     position: relative;
-    width: 100%;
-}
-
-.bannerVoley {
     width: 100%;
     height: 600px;
-    object-fit: cover;
-    position: relative;
 }
 
-.imageVoley {
+.banner-voley {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.player-image {
     position: absolute;
-    bottom: 5px;
-    left: 100%;
-    animation: slideIn 2s forwards;
+    top: 0;
+    left: 100%; /* Inicialmente fuera del contenedor a la derecha */
+    transform: translateX(-100%);
+    max-width: 100%;
+    max-height: 100%;
     background-color: rgba(0, 0, 0, 0);
+    opacity: 0;
+    /* Inicialmente oculto */
+    animation: fadeIn 0.2s ease-in-out 1s forwards, slideIn 1s ease-in-out 1s forwards;
+    /* fadeIn y slideIn con un retraso de 1 segundo */
+}
+
+.container-banner-text-voley {
+    position: absolute;
+    top: 100px;
+    right: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgba(0, 0, 0, 0);
+    width: 80%;
+    text-align: center;
+    opacity: 0; /* Inicialmente oculto */
+    animation: fadeInText 0.5s ease-in-out 2s forwards; /* fadeInText con un retraso de 2 segundos */
+}
+@keyframes fadeInText {
+    to {
+        opacity: 1; /* Hace que el contenedor sea visible al final de la animación */
+    }
+}
+.container-banner-text-voley h2{
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 45px;
+    color: white;
+    margin-bottom: 30px;
+} 
+.container-banner-text-voley p {
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 35px;
+}
+
+.container-voleypic-family {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.pic-voley1 {
+    object-fit: cover;
+    width: 800px;
+    height: 600px;
 }
 
 .container-text-voley {
-    position: absolute;
-    top: 150px;
-    right: 200px;
     font-family: 'Roboto', sans-serif;
-    background-color: rgba(0, 0, 0, 0);
-    text-align: center;
-    color: white;
-    opacity: 0;
-    /* Inicialmente establecemos la opacidad a 0 */
-    animation: fadeIn 1s forwards 2s;
-    /* Añadimos una animación de fadeIn con un retraso de 2 segundos */
-}
-
-.text-container {
-    background-color: rgba(0, 0, 0, 0);
-    padding: 20px;
-    border-radius: 8px;
-}
-
-.title {
-    font-size: 50px;
-    margin-bottom: 10px;
-    background-color: rgba(0, 0, 0, 0);
-}
-
-.subtitle {
-    font-size: 30px;
-    background-color: rgba(0, 0, 0, 0);
-}
-
-@media (max-width: 1600px) {
-    .container-text-voley {
-        width: 700px;
-        top: 150px;
-        right: 100px;
-    }
-    .title {
-        font-size: 40px;
-        
-    }
+    width: 600px;
+    height: 600px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
     
-    .subtitle {
-        font-size: 25px;
-        
-    }
 }
 
-@media (max-width: 1600px) {
-    .container-text-voley {
-        width: 500px;
-    }
+.container-text-voley p {
+    padding-top: 20px;
+    font-size: 20px;
+    color: white;
+}
+.container-gallery-taekwondo-pic{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 50px;
 }
 
-@media (max-width: 767px) {
-    .container-text-voley {
-        width: 400px;
-        top: 50px;
-        right: 50px;
-    }
-    .imageVoley {
-        height: auto;
-        width: 35%;
-    }
-
-    .bannerVoley {
-        height: 300px;
-    }
-
-    .title {
-        font-size: 25px;
-    }
-    .subtitle {
-        font-size: 16px;
-        
-    }
-}
-
-@media (max-width: 620px) {
-    .container-text-voley {
-        width: 300px;
-        top: 30px;
-        right: 30px;
-    }
-    .imageVoley {
-        height: auto;
-        width: 30%;
-    }
-
-    .title {
-        font-size: 25px;
-    }
-    .subtitle {
-        font-size: 12px;
-        
-    }
+.container-gallery-taekwondo-pic img:hover{
+    opacity: 0.5;
+    cursor: pointer;
 }
 
 @keyframes slideIn {
     to {
-        left: 50px;
+        left: 0; /* Mueve la imagen hacia la izquierda y la deja allí */
+        transform: translateX(0);
     }
 }
 
-@keyframes fadeIn {
-    to {
-        opacity: 1;
-        /* Hacemos que la opacidad sea 1 al final de la animación */
+@media only screen and (max-width: 850px) {
+    .pic-voley1 {
+        width: 500px;
+        height: 300px;
+    }
+    .container-banner-text-voley{
+        width: 70%;
+    }
+    .container-banner-text-voley h2{
+        font-size: 35px;
+    }
+    .container-banner-text-voley p{
+        font-size: 25px;
+    }
+    .container-text-voley {
+        width: 400px;
+        height: 400px;
+    }
+    .container-text-voley p {
+        font-size: 15px;
+    }
+    .container-text-voley h1 {
+        font-size: 22px;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    .container-banner-text-voley{
+        width: 100%;
+        top: 20px;
+    }
+    .container-banner-text-voley h2{
+        font-size: 28px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .container-banner-text-voley p{
+        font-size: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .player-image {
+        top: 180px;
+        max-width: 70%;
+        max-height: 70%;
+        
     }
 }
