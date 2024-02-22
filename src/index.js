@@ -13,7 +13,7 @@ import Zumba from './routes/Zumba';
 import Taebo from './routes/Taebo';
 import Hockey from './routes/Hockey';
 import Rock from './routes/Rock';
-import Voley from './routes/Voley';
+import Voley from './routes/Voley/Voley';
 import FutbolFemenino from './routes/FutbolFemenino';
 import ReggaetonInfantil from './routes/ReggatonInfantil';
 import AcroDance from './routes/AcroDance';

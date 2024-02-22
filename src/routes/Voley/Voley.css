@@ -1,0 +1,136 @@
+.container-voley {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.banner-container {
+    position: relative;
+    width: 100%;
+}
+
+.bannerVoley {
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+    position: relative;
+}
+
+.imageVoley {
+    position: absolute;
+    bottom: 5px;
+    left: 100%;
+    animation: slideIn 2s forwards;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.container-text-voley {
+    position: absolute;
+    top: 150px;
+    right: 200px;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgba(0, 0, 0, 0);
+    text-align: center;
+    color: white;
+    opacity: 0;
+    /* Inicialmente establecemos la opacidad a 0 */
+    animation: fadeIn 1s forwards 2s;
+    /* Añadimos una animación de fadeIn con un retraso de 2 segundos */
+}
+
+.text-container {
+    background-color: rgba(0, 0, 0, 0);
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.title {
+    font-size: 50px;
+    margin-bottom: 10px;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.subtitle {
+    font-size: 30px;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+@media (max-width: 1600px) {
+    .container-text-voley {
+        width: 700px;
+        top: 150px;
+        right: 100px;
+    }
+    .title {
+        font-size: 40px;
+        
+    }
+    
+    .subtitle {
+        font-size: 25px;
+        
+    }
+}
+
+@media (max-width: 1600px) {
+    .container-text-voley {
+        width: 500px;
+    }
+}
+
+@media (max-width: 767px) {
+    .container-text-voley {
+        width: 400px;
+        top: 50px;
+        right: 50px;
+    }
+    .imageVoley {
+        height: auto;
+        width: 35%;
+    }
+
+    .bannerVoley {
+        height: 300px;
+    }
+
+    .title {
+        font-size: 25px;
+    }
+    .subtitle {
+        font-size: 16px;
+        
+    }
+}
+
+@media (max-width: 620px) {
+    .container-text-voley {
+        width: 300px;
+        top: 30px;
+        right: 30px;
+    }
+    .imageVoley {
+        height: auto;
+        width: 30%;
+    }
+
+    .title {
+        font-size: 25px;
+    }
+    .subtitle {
+        font-size: 12px;
+        
+    }
+}
+
+@keyframes slideIn {
+    to {
+        left: 50px;
+    }
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+        /* Hacemos que la opacidad sea 1 al final de la animación */
+    }
+}
