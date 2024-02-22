@@ -10,7 +10,7 @@ export default function Footer() {
                 <p>Trabaja con Nosotros</p>
             </div>
             <div className='container-maxysdesigndigital'>
-                <p>Desarrollado por © maxysdigitaldesign</p>
+                <p>Desarrollado por © MxySDigitalDesign</p>
             </div>
         </footer>
     );
