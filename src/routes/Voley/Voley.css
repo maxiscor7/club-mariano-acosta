@@ -62,7 +62,7 @@
 
 .pic-voley1 {
     object-fit: cover;
-    width: 800px;
+    width: 100%;
     height: 600px;
 }
 
@@ -104,7 +104,6 @@
 
 @media only screen and (max-width: 850px) {
     .pic-voley1 {
-        width: 500px;
         height: 300px;
     }
     .container-banner-text-voley{
