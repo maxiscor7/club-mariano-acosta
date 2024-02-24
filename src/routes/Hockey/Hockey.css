@@ -77,7 +77,6 @@
     font-family: 'Roboto', sans-serif;
     width: 600px;
     height: 600px;
-    padding: 10px;
     display: flex;
     flex-direction: column;
 
@@ -85,17 +84,10 @@
 
 .container-text-hockey p {
     padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
     font-size: 20px;
     color: white;
-}
-
-.container-gallery-taekwondo-pic {
-    width: 100%;
-    height: auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-bottom: 50px;
 }
 
 .container-gallery-taekwondo-pic img:hover {
@@ -144,28 +136,29 @@
         height: 300px;
     }
 
-    .container-banner-text-voley {
+    .container-banner-text-hockey {
         width: 70%;
     }
 
-    .container-banner-text-voley h2 {
+    .container-banner-text-hockey h2 {
         font-size: 35px;
     }
 
-    .container-banner-text-voley p {
+    .container-banner-text-hockey p {
         font-size: 25px;
     }
 
-    .container-text-voley {
+    .container-text-hockey {
         width: 400px;
         height: 400px;
+        padding: 10px;
     }
 
-    .container-text-voley p {
+    .container-text-hockey p {
         font-size: 15px;
     }
 
-    .container-text-voley h1 {
+    .container-text-hockey h1 {
         font-size: 22px;
     }
 }
@@ -191,11 +184,10 @@
     }
 
     .player-image-hockey {
-
-    
     width: 100%;
     height: auto;
     }
+    
 }
 
 /*580 */
