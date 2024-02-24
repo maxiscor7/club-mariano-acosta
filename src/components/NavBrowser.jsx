@@ -6,14 +6,14 @@ import { useState } from 'react';
 export default function NavBrowser() {
     const disiplinasData = [
         { nombre: 'Taekwondo', ruta: '/taekwondo' },
+        { nombre: 'Hockey', ruta: '/hockey' },
+        { nombre: 'Vóley', ruta: '/voley' },
         { nombre: 'Patin artístico', ruta: '/partin-artistico' },
         { nombre: 'Kick Boxing', ruta: '/kick-boxing' },
         { nombre: 'Ritmos urbanos', ruta: '/ritmos-urbanos' },
         { nombre: 'Zumba', ruta: '/zumba' },
         { nombre: 'Taebo', ruta: '/taebo' },
-        { nombre: 'Hockey', ruta: '/hockey' },
         { nombre: 'Rock', ruta: '/rock' },
-        { nombre: 'Vóley', ruta: '/voley' },
         { nombre: 'Fútbol femenino', ruta: '/futbol-femenino' },
         { nombre: 'Reggaetón infantil', ruta: '/reggaeton-infantil' },
         { nombre: 'Acro dance', ruta: '/acro-dance' },
@@ -71,28 +71,28 @@ export default function NavBrowser() {
 
             <div className={`${showDisciplinas ? 'hide-div-disciplinas' : 'hidden'}`}>
                 {disiplinasData.map((disciplina, index) => (
-                    <div key={index} className='disiplina-item'>
-                        <NavLink
+                    
+                        <NavLink key={index} className='disiplina-item'
                         id='button-link'
                         style={{ textDecoration: 'none', color:'white' }}
                         to={disciplina.ruta}
                         >
                             {disciplina.nombre}
                         </NavLink>
-                    </div>
+                    
                 ))}
             </div>
             <div className={`${showClub ? 'hide-div-club' : 'hiddenClub'}`}>
                 {elClub.map((club, index) => (
-                    <div key={index} className='disiplina-item'>
-                        <NavLink
+                    
+                        <NavLink key={index} className='disiplina-item'
                             id='button-link'
                             style={{ textDecoration: 'none', color:'white' }}
                             to={club.ruta}
                         >
                             {club.nombre}
                         </NavLink>
-                    </div>
+                    
                 ))}
             </div>
         </div>
