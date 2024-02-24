@@ -8,6 +8,7 @@ export default function NavBrowser() {
         { nombre: 'Taekwondo', ruta: '/taekwondo' },
         { nombre: 'Hockey', ruta: '/hockey' },
         { nombre: 'Vóley', ruta: '/voley' },
+        { nombre: 'Básquetbol', ruta: '/basquetbol' },
         { nombre: 'Patin artístico', ruta: '/partin-artistico' },
         { nombre: 'Kick Boxing', ruta: '/kick-boxing' },
         { nombre: 'Ritmos urbanos', ruta: '/ritmos-urbanos' },
@@ -18,8 +19,7 @@ export default function NavBrowser() {
         { nombre: 'Reggaetón infantil', ruta: '/reggaeton-infantil' },
         { nombre: 'Acro dance', ruta: '/acro-dance' },
         { nombre: 'Fútbol masculino', ruta: '/futbol-masculino' },
-        { nombre: 'Escuela de padle', ruta: '/escuela-de-padle' },
-        { nombre: 'Básquetbol', ruta: '/basquetbol' }];
+        { nombre: 'Escuela de padle', ruta: '/escuela-de-padle' }];
 
     const elClub = [{ nombre: 'Historia', ruta: '/historia' }, { nombre: 'Instalaciones', ruta: '/instalaciones' }];
 

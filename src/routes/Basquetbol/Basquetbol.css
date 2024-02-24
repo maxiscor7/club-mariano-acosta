@@ -1,0 +1,154 @@
+
+.container-banner-basquetbol {
+    position: relative;
+    width: 100%;
+    height: 600px;
+}
+
+.banner-basquetbol {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.player-image-basquetbol {
+    position: absolute;
+    bottom: 0;
+    left: 100%; /* Inicialmente fuera del contenedor a la derecha */
+    transform: translateX(-100%);
+    width: 750px;
+    height: 550px;
+    object-fit: cover;
+    background-color: rgba(0, 0, 0, 0);
+    opacity: 0;
+    /* Inicialmente oculto */
+    animation: fadeIn 0.2s ease-in-out 1s forwards, slideIn 1s ease-in-out 1s forwards;
+    /* fadeIn y slideIn con un retraso de 1 segundo */
+}
+
+.container-banner-text-basquetbol {
+    position: absolute;
+    top: 100px;
+    right: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgba(0, 0, 0, 0);
+    width: 80%;
+    text-align: center;
+    opacity: 0; /* Inicialmente oculto */
+    animation: fadeInText 0.5s ease-in-out 2s forwards; /* fadeInText con un retraso de 2 segundos */
+}
+@keyframes fadeInText {
+    to {
+        opacity: 1; /* Hace que el contenedor sea visible al final de la animación */
+    }
+}
+.container-banner-text-basquetbol h2{
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 45px;
+    color: white;
+    margin-bottom: 30px;
+} 
+.container-banner-text-basquetbol p {
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 35px;
+}
+
+.container-basquetbolpic-family {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.pic-basquetbol1 {
+    object-fit: cover;
+    width: 800px;
+    height: 600px;
+}
+
+.container-text-basquetbol {
+    font-family: 'Roboto', sans-serif;
+    width: 600px;
+    height: 600px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.container-text-basquetbol p {
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 20px;
+    color: white;
+}
+
+
+@keyframes slideIn {
+    to {
+        left: 50px; /* Mueve la imagen hacia la izquierda y la deja allí */
+        transform: translateX(0);
+    }
+}
+@media only screen and (max-width: 1436px) {
+    .player-image-basquetbol {
+        width: 550px;
+        height: 400px;
+    }
+}
+@media only screen and (max-width: 950px) {
+    .player-image-basquetbol {
+        width: 420px;
+        height: 320px;
+    }
+}
+@media only screen and (max-width: 850px) {
+    .pic-basquetbol1 {
+        height: 300px;
+    }
+    .container-banner-text-basquetbol{
+        width: 70%;
+    }
+    .container-banner-text-basquetbol h2{
+        font-size: 35px;
+    }
+    .container-banner-text-basquetbol p{
+        font-size: 25px;
+    }
+    .container-text-basquetbol {
+        width: 400px;
+        height: 400px;
+    }
+    .container-text-basquetbol p {
+        font-size: 15px;
+    }
+    .container-text-basquetbol h1 {
+        font-size: 22px;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    .container-banner-text-basquetbol{
+        width: 100%;
+        
+    }
+    .container-banner-text-basquetbol h2{
+        font-size: 28px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .container-banner-text-basquetbol p{
+        font-size: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    
+    @keyframes slideIn {
+        to {
+            left: 0; /* Mueve la imagen hacia la izquierda y la deja allí */
+            transform: translateX(0);
+        }
+    }
+}
