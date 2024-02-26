@@ -107,8 +107,8 @@
 }
 @media only screen and (max-width: 850px) {
     .pic-basquetbol1 {
-        height: 300px;
         width: 100%;
+        height: 300px;
     }
     .container-banner-text-basquetbol{
         width: 70%;
@@ -152,5 +152,12 @@
             left: 0; /* Mueve la imagen hacia la izquierda y la deja allí */
             transform: translateX(0);
         }
+    }
+}
+@media only screen and (max-width: 550px) {
+    .player-image-basquetbol {
+        width: 100%;
+        height: 290px;
+        margin-left: 15px;
     }
 }
