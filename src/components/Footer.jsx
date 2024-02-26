@@ -5,7 +5,8 @@ export default function Footer() {
         <footer>
             <div className='container-footer'>
                 <p>© 2024 Club Social y Deportivo Mariano Acosta. Todos los derechos reservados.</p>
-                <p>Dirección de la Empresa | Teléfono: 123-456-789 | Correo electrónico: info@tuempresa.com</p>
+                <p>Direcion: Cnel. Salvadores 2667, Mariano Acosta | Teléfono: 1131848212 y/o 1150375322</p>
+                <p>Correo electrónico: info@tuempresa.com</p>
                 <p>Redes Sociales: Facebook | Twitter | Instagram</p>
                 <p>Trabaja con Nosotros</p>
             </div>
