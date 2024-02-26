@@ -35,7 +35,7 @@ export default function CarouselSponsors() {
   };
 
   return (
-    <div style={{ margin: '0 auto', maxWidth: '1400px', padding: '0 20px', marginBottom: '100px', }}>
+    <div style={{ margin: '0 auto', maxWidth: '1400px', padding: '0 20px', marginBottom: '50px', }}>
       <Slider {...settings}>
         {images.map((image, index) => (
           <div key={index} style={{ textAlign: 'center' }}>

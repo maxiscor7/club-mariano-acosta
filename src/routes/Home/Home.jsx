@@ -12,6 +12,7 @@ export default function Home() {
         <div className="container-home">
             <NavBrowser />
             <img className="banner-img" src={banner} alt="banner actividades" />
+            <CarouselSponsors/>
             <div className="container-cards">
                 <div className="card">
                     <img src={hockey} alt="hockey" />
@@ -40,7 +41,6 @@ export default function Home() {
                     </div>
                 </div>
             </div>
-            <CarouselSponsors/>
             <Footer/>
         </div>
     )

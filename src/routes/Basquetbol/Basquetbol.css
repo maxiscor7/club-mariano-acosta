@@ -59,6 +59,7 @@
     justify-content: space-evenly;
     margin-top: 100px;
     margin-bottom: 50px;
+    width: 100%;
 }
 
 .pic-basquetbol1 {
@@ -107,6 +108,7 @@
 @media only screen and (max-width: 850px) {
     .pic-basquetbol1 {
         height: 300px;
+        width: 100%;
     }
     .container-banner-text-basquetbol{
         width: 70%;
