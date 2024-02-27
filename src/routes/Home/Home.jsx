@@ -12,36 +12,17 @@ export default function Home() {
         <div className="container-home">
             <NavBrowser />
             <img className="banner-img" src={banner} alt="banner actividades" />
-            <CarouselSponsors/>
+            <CarouselSponsors />
+            
             <div className="container-cards">
-                <div className="card">
-                    <img src={hockey} alt="hockey" />
-                    <div className="container-textCard">
-                        <h4>HOCKEY CLUB SOCIAL Y DEPORTIVO MARIANO ACOSTA</h4>
-                        <p>"Venite y sumate" - "Planteles femeninos y masculinos"</p>
-                        <p>En febrero arrancamos los entrenamientos para la temporada 2024, todas las categorias 10ma, 9na, 8va, 7ma, 6ta, 5ta, primera division, mamis y Equipo masculino.</p>
-                        <h4>¡ANOTATE AHORA!</h4>
-                    </div>
-                </div>
-                <div className="card">
-                    <img src={futFem} alt="hockey" />
-                    <div className="container-textCard">
-                        <h4>ABIERTA LA INSCRPCION FUTBOL FEMENINO +18</h4>
-                        <p>⚽ ¿Qué esperas para unirte a nosotras y formar parte de esta experiencia única? ¡todos son bienvenidos!</p>
-                        <p>Comparte momentos emocionantes y vive la verdadera camaradería que solo el fútbol femenino puede ofrecer.</p>
-                        <h4>¡ANOTATE AHORA!</h4>
-                    </div>
-                </div>
-                <div className="card">
-                    <img src={juntos} alt="hockey" />
-                    <div className="container-textCard">
-                        <h4>Cierre Triunfal del Año</h4>
-                        <p>Nuestras escuelitas despidieron el año así, en el polideportivo, juntando la alegría de los chicos, profesores, comité deportivo y comisión directiva 👏👏,hasta el año que  viene 🏆🥂👍</p>
-                        
-                    </div>
-                </div>
+                <div className="card card1"></div>
+                <div className="card card2"></div>
+                <div className="card card3"></div>
+                <div className="card card4"></div>
+                <div className="card card5"></div>
+                <div className="card card6"></div>
             </div>
-            <Footer/>
+            <Footer />
         </div>
     )
 }
