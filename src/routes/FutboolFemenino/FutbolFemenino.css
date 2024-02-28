@@ -1,3 +1,6 @@
+.container-div-FutbolFemenino{
+    background-color: #1C3168;
+}
 .container-banner-FutbolFemenino {
     position: relative;
     width: 100%;
@@ -19,7 +22,6 @@
     width: 700px;
     height: 500px;
     object-fit: cover;
-    background-color: rgba(0, 0, 0, 0);
     opacity: 0;
     /* Inicialmente oculto */
     animation: fadeIn 0.2s ease-in-out 1s forwards, slideIn 1s ease-in-out 1s forwards;
@@ -31,7 +33,6 @@
     top: 110px;
     right: 250px;
     font-family: 'Roboto', sans-serif;
-    background-color: rgba(0, 0, 0, 0);
     width: 40%;
     text-align: center;
     opacity: 0;
@@ -48,14 +49,12 @@
 }
 
 .container-banner-text-FutbolFemenino h2 {
-    background-color: rgba(0, 0, 0, 0);
     font-size: 45px;
     color: white;
     margin-bottom: 30px;
 }
 
 .container-banner-text-FutbolFemenino p {
-    background-color: rgba(0, 0, 0, 0);
     font-size: 35px;
 }
 

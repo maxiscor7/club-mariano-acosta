@@ -6,7 +6,7 @@ export default function KickBoxing() {
   return (
     <div>
       <NavBrowser />
-      <div style={{ width: '100%', height: '600px' }}>
+      <div style={{ width: '100%', height: '600px', backgroundColor: '#1C3168'  }}>
         <h1>KickBoxing</h1>
       </div>
       <Footer />

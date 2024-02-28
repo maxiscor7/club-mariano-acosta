@@ -1,3 +1,7 @@
+.container-div-hockey{
+    background-color: #1C3168;
+}
+
 .container-banner-hockey {
     position: relative;
     width: 100%;
@@ -19,7 +23,6 @@
     width: 750px;
     height: 550px;
     object-fit: fill;
-    background-color: rgba(0, 0, 0, 0);
     opacity: 0;
     /* Inicialmente oculto */
     animation: fadeIn 0.2s ease-in-out 1s forwards, slideIn 1s ease-in-out 1s forwards;
@@ -31,7 +34,6 @@
     top: 100px;
     right: 200px;
     font-family: 'Roboto', sans-serif;
-    background-color: rgba(0, 0, 0, 0);
     width: 700px;
     text-align: center;
     opacity: 0;
@@ -48,14 +50,12 @@
 }
 
 .container-banner-text-hockey h2 {
-    background-color: rgba(0, 0, 0, 0);
     font-size: 45px;
     color: white;
     margin-bottom: 30px;
 }
 
 .container-banner-text-hockey p {
-    background-color: rgba(0, 0, 0, 0);
     font-size: 30px;
 }
 

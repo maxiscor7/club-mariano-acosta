@@ -40,7 +40,7 @@ export default function NavBrowser() {
         setShowClub(false); // Restablecer el estado de showClub al hacer clic en Disciplinas
     }
     return (
-        <div>
+        <div className='big-container'>
             <div className='container-logo'>
                 <img src={logo} alt='logo club social y deportivo mariano moreno' />
                 <div className='container-tit'>

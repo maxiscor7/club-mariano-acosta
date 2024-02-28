@@ -1,4 +1,7 @@
 
+.container-div-basquetbol{
+    background-color: #1C3168;
+}
 .container-banner-basquetbol {
     position: relative;
     width: 100%;
@@ -19,7 +22,6 @@
     width: 750px;
     height: 550px;
     object-fit: cover;
-    background-color: rgba(0, 0, 0, 0);
     opacity: 0;
     /* Inicialmente oculto */
     animation: fadeIn 0.2s ease-in-out 1s forwards, slideIn 1s ease-in-out 1s forwards;
@@ -31,7 +33,6 @@
     top: 100px;
     right: 0;
     font-family: 'Roboto', sans-serif;
-    background-color: rgba(0, 0, 0, 0);
     width: 80%;
     text-align: center;
     opacity: 0; /* Inicialmente oculto */
@@ -43,13 +44,11 @@
     }
 }
 .container-banner-text-basquetbol h2{
-    background-color: rgba(0, 0, 0, 0);
     font-size: 45px;
     color: white;
     margin-bottom: 30px;
 } 
 .container-banner-text-basquetbol p {
-    background-color: rgba(0, 0, 0, 0);
     font-size: 35px;
 }
 
@@ -74,8 +73,7 @@
     height: 600px;
     padding: 10px;
     display: flex;
-    flex-direction: column;
-    
+    flex-direction: column;    
 }
 
 .container-text-basquetbol p {

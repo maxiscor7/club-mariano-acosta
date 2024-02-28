@@ -1,4 +1,6 @@
-
+.container-div-voley{
+    background-color: #1C3168;
+}
 .container-banner-voley {
     position: relative;
     width: 100%;
@@ -18,7 +20,6 @@
     transform: translateX(-100%);
     max-width: 100%;
     max-height: 100%;
-    background-color: rgba(0, 0, 0, 0);
     opacity: 0;
     /* Inicialmente oculto */
     animation: fadeIn 0.2s ease-in-out 1s forwards, slideIn 1s ease-in-out 1s forwards;
@@ -30,7 +31,6 @@
     top: 100px;
     right: 0;
     font-family: 'Roboto', sans-serif;
-    background-color: rgba(0, 0, 0, 0);
     width: 80%;
     text-align: center;
     opacity: 0; /* Inicialmente oculto */
@@ -42,13 +42,11 @@
     }
 }
 .container-banner-text-voley h2{
-    background-color: rgba(0, 0, 0, 0);
     font-size: 45px;
     color: white;
     margin-bottom: 30px;
 } 
 .container-banner-text-voley p {
-    background-color: rgba(0, 0, 0, 0);
     font-size: 35px;
 }
 
