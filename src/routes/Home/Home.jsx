@@ -11,12 +11,32 @@ import taekwonHome from "../../assets/taekwonHome.jpg"
 import './Home.css'
 import CarouselSponsors from "../../components/CarouselSponsors";
 import Footer from "../../components/Footer";
+
+import { useTypewriter } from "react-simple-typewriter";
+import { useState } from "react";
+
 export default function Home() {
+
+    const [finished, setFinished] = useState(false);
+    const [text] = useTypewriter({
+        words: ['VENI A PARTICIPAR DE TORNEOS, DISFRUTAR Y LLEVAR TU RENDIMIENTO A OTRO NIVEL'],
+        loop: 1,
+        typeSpeed: 60,
+        onComplete: () => setFinished(true), // Callback cuando la animación está completa
+    });
 
     return (
         <div className="container-home">
             <NavBrowser />
-            <img className="banner-img" src={banner} alt="banner actividades" />
+            <div className="conatiner-banner">
+                <img className="banner-img" src={banner} alt="banner actividades" />
+                <div className="container-text-banner-typeRighter">
+                    <span className="span-seleccion">
+                        {text}
+                    </span>
+                    
+                </div>
+            </div>
             <CarouselSponsors />
             <div className="container-noticias">
                 <div className="noticias-tit">
