@@ -5,8 +5,9 @@ import futFem from "../../assets/futFem.png"
 import juntos from "../../assets/juntos.jpg"
 import cups from "../../assets/cups.jpeg"
 import directivos from "../../assets/directivos.jpg"
-import field from "../../assets/field.jpeg"
 import taekwonHome from "../../assets/taekwonHome.jpg"
+import miniatura1 from "../../assets/miniatura1.jpeg"
+import miniatura2 from "../../assets/miniatura2.jpeg"
 
 import './Home.css'
 import CarouselSponsors from "../../components/CarouselSponsors";
@@ -34,7 +35,7 @@ export default function Home() {
                     <span className="span-seleccion">
                         {text}
                     </span>
-                    
+
                 </div>
             </div>
             <CarouselSponsors />
@@ -90,6 +91,31 @@ export default function Home() {
                         <div className="card-content">
                             <h2>Título 6</h2>
                             <p>Subtítulo 6</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div className="container-videos-home">
+                <div className="videos-tit">
+                    <h1>{`Videos >`} </h1>
+                </div>
+                <div className="conatiner-miniaturas-videos">
+                    <div className="miniatura">
+                        <a href="https://www.youtube.com/watch?v=yNYJiepC0R4" target="_blank">
+                            <img src={miniatura1} alt="miniatura video" />
+                        </a>
+                        <div className="container-text-miniatura">
+                            <h2>Raíces de Grandeza: Historia del Club Mariano Acosta</h2>
+                            <p>Explora la rica historia del Club Mariano Acosta, desde sus inicios hasta convertirse en un símbolo comunitario. Un viaje lleno de pasión y logros que ha marcado nuestra identidad deportiva y social.</p>
+                        </div>
+                    </div>
+                    <div className="miniatura">
+                        <a href="https://www.youtube.com/watch?v=4tsN43DT5kc&t=3s" target="_blank">
+                            <img src={miniatura2} alt="miniatura video" />
+                        </a>
+                        <div className="container-text-miniatura">
+                            <h2>Partido picante entre Mariano Acosta y La sub 21</h2>
+                            <p>El pasado 9 febrero Mariano Acosta se enfrento contra La sub 21, el partido fue super apretado con un resultado de 5 a 4, saliendo como vencedor La sub 21. Mira todo el partido aca!</p>
                         </div>
                     </div>
                 </div>
