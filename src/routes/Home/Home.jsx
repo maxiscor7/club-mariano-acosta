@@ -101,7 +101,7 @@ export default function Home() {
                 </div>
                 <div className="conatiner-miniaturas-videos">
                     <div className="miniatura">
-                        <a href="https://www.youtube.com/watch?v=yNYJiepC0R4" target="_blank">
+                        <a href="https://www.youtube.com/watch?v=yNYJiepC0R4" target="_blank" rel="noreferrer">
                             <img src={miniatura1} alt="miniatura video" />
                         </a>
                         <div className="container-text-miniatura">
@@ -110,7 +110,7 @@ export default function Home() {
                         </div>
                     </div>
                     <div className="miniatura">
-                        <a href="https://www.youtube.com/watch?v=4tsN43DT5kc&t=3s" target="_blank">
+                        <a href="https://www.youtube.com/watch?v=4tsN43DT5kc&t=3s" target="_blank" rel="noreferrer">
                             <img src={miniatura2} alt="miniatura video" />
                         </a>
                         <div className="container-text-miniatura">
