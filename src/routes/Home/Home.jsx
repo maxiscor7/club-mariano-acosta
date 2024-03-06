@@ -2,7 +2,10 @@ import NavBrowser from "../../components/NavBrowser";
 import banner from "../../assets/banner.png"
 import miniatura1 from "../../assets/miniatura1.jpeg"
 import miniatura2 from "../../assets/miniatura2.jpeg"
-
+import notiFut from "../../assets/noti-fut-inf.png"
+import notiHock from "../../assets/noti-hock.png"
+import notiMini from "../../assets/noti-mini.png"
+import notiTae from "../../assets/noti-tae.png"
 import './Home.css'
 
 import Footer from "../../components/Footer";
@@ -32,8 +35,26 @@ export default function Home() {
 
                 </div>
             </div>
-            
-            
+
+            <div className="big-container noticias">
+                <div className="videos-tit">
+                    <h1>{`Noticias >`} </h1>
+                </div>
+                <div className="container-noticias-home">
+                    <div className="container-mini-noticia1 efectHov">
+                        <img src={notiFut} alt="noticias" />
+                    </div>
+                    <div className="container-mini-noticia2 efectHov">
+                        <img src={notiTae} alt="noticias" />
+                    </div>
+                    <div className="container-mini-noticia4 efectHov">
+                        <img src={notiHock} alt="noticias" />
+                    </div>
+                    <div className="container-mini-noticia3 efectHov">
+                        <img src={notiMini} alt="noticias" />
+                    </div>
+                </div>
+            </div>
             <div className="container-videos-home">
                 <div className="videos-tit">
                     <h1>{`Videos >`} </h1>
