@@ -22,7 +22,9 @@ import AcroDance from './routes/AcroDance';
 import EscuelaDePadle from './routes/EscuelaDePadle';
 import Historia from './routes/Historia';
 import Instalaciones from './routes/Instalaciones';
-
+/*
+import Galeries from './routes/Galeries';
+*/
 
 const router = createBrowserRouter([
     {
@@ -105,7 +107,11 @@ const router = createBrowserRouter([
     {
         path: "/instalaciones",
         element: <Instalaciones/>,
-    }
+    },/*  --------------- esto sacarlo cuando este disponible galerias para mostrar
+    {
+        path: "/galeries",
+        element: <Galeries />,
+    }*/
 ])
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
