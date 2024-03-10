@@ -1,4 +1,3 @@
-import NavBrowser from "../../components/NavBrowser"
 import Footer from "../../components/Footer"
 import bannerRitmos from "../../assets/banner-ritmos.png"
 
@@ -6,12 +5,13 @@ import crew from "../../assets/crew.jpeg"
 import crew2 from "../../assets/crew2.jpeg"
 
 import './RitmosUrbanos.css'
+import NavBrowserBst from "../../components/NavBrowserBst"
 
 
 export default function RitmosUrbanos() {
   return (
     <div className="container-div-ritmo">
-      <NavBrowser />
+      <NavBrowserBst />
       <div className="container-banner-ritmo">
         <img className="banner-ritm" src={bannerRitmos} alt="banner ritmo urbano" />
 

@@ -1,15 +1,15 @@
 import React from 'react'
-import NavBrowser from '../../components/NavBrowser';
 import Footer from '../../components/Footer';
 import bannerVoley from "../../assets/banner-voley.jpeg";
 import messi from "../../assets/messi.png";
 import futInfantil from "../../assets/futInfantil.jpg";
 import './FutbolMasculino.css';
+import NavBrowserBst from '../../components/NavBrowserBst';
 
 export default function FutbolMasculino() {
   return (
     <div className="container-div-futbolMasculino">
-      <NavBrowser />
+      <NavBrowserBst />
       <div className="container-banner-futbolMasculino">
         <img className="banner-futbolMasculino" src={bannerVoley} alt="banner futbol Masculino" />
         <img className="player-image-futbolMasculino" src={messi} alt="player" />

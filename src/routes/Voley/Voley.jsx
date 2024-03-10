@@ -1,15 +1,15 @@
 import React from 'react'
-import NavBrowser from '../../components/NavBrowser';
 import Footer from '../../components/Footer';
 import bannerVoley from "../../assets/banner-voley.jpeg";
 import imgVoley from "../../assets/imgVoley.png";
 import voleyPic from "../../assets/voleyPic.jpg";
 import './Voley.css';
+import NavBrowserBst from '../../components/NavBrowserBst';
 
 export default function Voley() {
   return (
     <div className="container-div-voley">
-      <NavBrowser />
+      <NavBrowserBst />
       <div className="container-banner-voley">
         <img className="banner-voley" src={bannerVoley} alt="banner voley" />
         <img className="player-image" src={imgVoley} alt="image player" />

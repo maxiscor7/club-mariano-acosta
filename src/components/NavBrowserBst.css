@@ -1,0 +1,82 @@
+.container-all-nabvar{
+    background-color: #1C3168;
+}
+.active{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    border-bottom: solid 2px #0e4ef0;
+}
+.container-fluid{
+    font-size: 17px;
+    padding: 5px;
+}
+.navbar-toggler{
+    margin: 5px;
+}
+.subrrallado{
+    border-bottom: solid black 1px;
+}
+.dropdown-menu {
+    --bs-dropdown-spacer: 4px;
+    --bs-dropdown-border-radius: 0px;
+  }
+
+  .container-logo{
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    background-color: #1C3168;
+    color: white;
+}
+.container-logo img{
+    height: 120px;
+    width: 100px;
+}
+.container-tit{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container-tit h2{
+    display: block;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.container-tit h1{
+    display: block;
+    font-size: 2em;
+    font-weight: bold;
+}
+.dropdown ul{
+    background-color: #1433ad;
+}
+.dropdown-item{
+    color: white;
+}
+
+@media only screen and (min-width: 1003px) {
+    .container-links-navbar {
+        margin-left: 100px; /* Ajusta el valor del margen según tus necesidades */
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    .container-logo{
+        margin-left: 200px;
+    }
+  }
+
+  @media only screen and (max-width: 999px) {
+    .container-logo{
+        justify-content: center;
+    }
+  }
+
+  @media only screen and (max-width: 450px) {
+    .container-logo h2{
+        font-size: 18px;
+    }
+    .container-logo h1{
+        font-size: 24px;
+    }
+  }

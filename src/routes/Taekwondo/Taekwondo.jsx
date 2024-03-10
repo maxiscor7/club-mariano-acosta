@@ -1,4 +1,4 @@
-import NavBrowser from "../../components/NavBrowser"
+import NavBrowserBst from "../../components/NavBrowserBst"
 import Footer from "../../components/Footer"
 import taekwondopic from "../../assets/taekwondopic.jpg"
 import logoTk from "../../assets/logo-tk.png"
@@ -23,7 +23,7 @@ export default function Taekwondo() {
 
     return (
         <div className="container-div-taekwondo">
-            <NavBrowser />
+            <NavBrowserBst />
             <div className="container-banner-taekwondo">
                 <img className="banner-taek" src={taekwondopic} alt="banner taekondo" />
                 <img className="logo-banner" src={logoTk} alt="logo taekwondo" />

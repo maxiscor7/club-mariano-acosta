@@ -3,8 +3,7 @@ import Footer from '../components/Footer'
 import underConstruccion from '../assets/underConstruccion.png'
 import NavBrowserBst from '../components/NavBrowserBst'
 
-
-export default function ReggatonInfantil() {
+export default function SedeSocial() {
   return (
     <div>
       <NavBrowserBst />

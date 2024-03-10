@@ -1,13 +1,12 @@
 import React from 'react'
-import NavBrowser from '../components/NavBrowser'
 import Footer from '../components/Footer'
 import underConstruccion from '../assets/underConstruccion.png'
+import NavBrowserBst from '../components/NavBrowserBst'
 
-
-export default function Taebo() {
+export default function Folklore() {
   return (
     <div>
-      <NavBrowser />
+      <NavBrowserBst />
       <div className='container-under-contruccion'>
         <img src={underConstruccion} alt='' />
       </div>

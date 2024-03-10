@@ -1,15 +1,15 @@
 import React from 'react'
-import NavBrowser from '../../components/NavBrowser';
 import Footer from '../../components/Footer';
 import bannerVoley from "../../assets/banner-voley.jpeg";
 import futFemBanner from "../../assets/futFemBanner.png";
 import futFem from "../../assets/futFem.png";
 import './FutbolFemenino.css';
+import NavBrowserBst from '../../components/NavBrowserBst';
 
 export default function FutbolFemenino() {
   return (
     <div className="container-div-FutbolFemenino">
-    <NavBrowser />
+    <NavBrowserBst />
     <div className="container-banner-FutbolFemenino">
       <img className="banner-FutbolFemenino" src={bannerVoley} alt="banner Futbol Femenino" />
       <img className="player-image-FutbolFemenino" src={futFemBanner} alt="player Futbol Femenino" />

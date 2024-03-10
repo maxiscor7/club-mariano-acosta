@@ -15,13 +15,16 @@ import RitmosUrbanos from './routes/RitmosUrbanos/RitmosUrbanos';
 import PatinArtistico from './routes/PatinArtistico';
 import KickBoxing from './routes/KickBoxing';
 import Zumba from './routes/Zumba';
-import Taebo from './routes/Taebo';
 import Rock from './routes/Rock';
 import ReggaetonInfantil from './routes/ReggatonInfantil';
-import AcroDance from './routes/AcroDance';
 import EscuelaDePadle from './routes/EscuelaDePadle';
 import Historia from './routes/Historia';
-import Instalaciones from './routes/Instalaciones';
+import SedeSocial from './routes/SedeSocial';
+import AnexoPoli from './routes/AnexoPoli';
+import Folklore from './routes/Folklore';
+import Socios from './routes/Socios';
+import Noticias from './routes/Noticias';
+import Indumentaria from "./routes/Indumentaria";
 /*
 import Galeries from './routes/Galeries';
 */
@@ -61,8 +64,12 @@ const router = createBrowserRouter([
         element: <Zumba/>,
     },
     {
-        path: "/taebo",
-        element: <Taebo/>,
+        path: "/indumentaria",
+        element: <Indumentaria/>
+    },
+    {
+        path: "/anexo-polideportivo",
+        element: <AnexoPoli/>,
     },
     {
         path: "/hockey",
@@ -85,10 +92,6 @@ const router = createBrowserRouter([
         element: <ReggaetonInfantil/>,
     },
     {
-        path: "/acro-dance",
-        element: <AcroDance/>,
-    },
-    {
         path: "/futbol-masculino",
         element: <FutbolMasculino/>,
     },
@@ -101,12 +104,24 @@ const router = createBrowserRouter([
         element: <Basquetbol/>,
     },
     {
+        path: "/folklore",
+        element: <Folklore/>
+    },
+    {
+        path: "/socios",
+        element: <Socios/>
+    },
+    {
         path: "/historia",
         element: <Historia/>,
     },
     {
-        path: "/instalaciones",
-        element: <Instalaciones/>,
+        path: "/noticias",
+        element: <Noticias/>
+    },
+    {
+        path: "/sede-social",
+        element: <SedeSocial/>,
     },/*  --------------- esto sacarlo cuando este disponible galerias para mostrar
     {
         path: "/galeries",

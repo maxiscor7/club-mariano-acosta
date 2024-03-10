@@ -1,13 +1,13 @@
 import Footer from "../components/Footer";
-import NavBrowser from "../components/NavBrowser";
 import underConstruccion from '../assets/underConstruccion.png'
+import NavBrowserBst from "../components/NavBrowserBst";
 
 
 export default function Events() {
 
     return (
         <div>
-            <NavBrowser />
+            <NavBrowserBst />
             <div className='container-under-contruccion'>
                 <img src={underConstruccion} alt='' />
             </div>

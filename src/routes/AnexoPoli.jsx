@@ -4,7 +4,7 @@ import underConstruccion from '../assets/underConstruccion.png'
 import NavBrowserBst from '../components/NavBrowserBst'
 
 
-export default function ReggatonInfantil() {
+export default function AnexoPoli() {
   return (
     <div>
       <NavBrowserBst />

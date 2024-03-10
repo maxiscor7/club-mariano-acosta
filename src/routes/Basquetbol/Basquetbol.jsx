@@ -1,15 +1,15 @@
 import React from 'react'
-import NavBrowser from '../../components/NavBrowser';
 import Footer from '../../components/Footer';
 import bannerVoley from "../../assets/banner-voley.jpeg";
 import basquetPic from "../../assets/basquetPic.png";
 import basquetKids from "../../assets/basquetKids.png";
 import './Basquetbol.css';
+import NavBrowserBst from '../../components/NavBrowserBst';
 
 export default function Basquetbol() {
   return (
     <div className="container-div-basquetbol">
-      <NavBrowser />
+      <NavBrowserBst />
       <div className="container-banner-basquetbol">
         <img className="banner-basquetbol" src={bannerVoley} alt="banner basquetbol" />
         <img className="player-image-basquetbol" src={basquetPic} alt="player" />

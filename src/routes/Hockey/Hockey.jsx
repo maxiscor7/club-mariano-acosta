@@ -1,15 +1,15 @@
 import React from 'react'
-import NavBrowser from '../../components/NavBrowser';
 import Footer from '../../components/Footer';
 import bannerVoley from "../../assets/banner-voley.jpeg";
 import hockeyPic from "../../assets/hockeyPic.png";
 import hockey from "../../assets/hockey.jpg";
 import './Hockey.css';
+import NavBrowserBst from '../../components/NavBrowserBst';
 
 export default function Hockey() {
   return (
     <div className="container-div-hockey">
-      <NavBrowser />
+      <NavBrowserBst />
       <div className="container-banner-hockey">
         <img className="banner-hockey" src={bannerVoley} alt="banner hockey"/>
         <img className="player-image-hockey" src={hockeyPic} alt="player" />

@@ -1,4 +1,4 @@
-import NavBrowser from "../../components/NavBrowser";
+import NavBrowserBst from "../../components/NavBrowserBst";
 import banner from "../../assets/banner.png"
 import miniatura1 from "../../assets/miniatura1.jpeg"
 import miniatura2 from "../../assets/miniatura2.jpeg"
@@ -25,7 +25,7 @@ export default function Home() {
 
     return (
         <div className="container-home">
-            <NavBrowser />
+            <NavBrowserBst />
             <div className="conatiner-banner">
                 <img className="banner-img" src={banner} alt="banner actividades" />
                 <div className="container-text-banner-typeRighter">
