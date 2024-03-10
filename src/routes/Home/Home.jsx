@@ -65,7 +65,7 @@ export default function Home() {
                             <img src={miniatura1} alt="miniatura video" />
                         </a>
                         <div className="container-text-miniatura">
-                            <h2>Raíces de Grandeza: Historia del Club Mariano Acosta</h2>
+                            <h1>Raíces de Grandeza: Historia del Club Mariano Acosta</h1>
                             <p>Explora la rica historia del Club Mariano Acosta, desde sus inicios hasta convertirse en un símbolo comunitario. Un viaje lleno de pasión y logros que ha marcado nuestra identidad deportiva y social.</p>
                         </div>
                     </div>
@@ -74,7 +74,7 @@ export default function Home() {
                             <img src={miniatura2} alt="miniatura video" />
                         </a>
                         <div className="container-text-miniatura">
-                            <h2>Partido picante entre Mariano Acosta y La sub 21</h2>
+                            <h1>Partido picante entre Mariano Acosta y La sub 21</h1>
                             <p>El pasado 9 febrero Mariano Acosta se enfrento contra La sub 21, el partido fue super apretado con un resultado de 5 a 4, saliendo como vencedor La sub 21. Mira todo el partido aca!</p>
                         </div>
                     </div>

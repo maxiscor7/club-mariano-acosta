@@ -12,7 +12,7 @@ export default function Voley() {
       <NavBrowserBst />
       <div className="container-banner-voley">
         <img className="banner-voley" src={bannerVoley} alt="banner voley" />
-        <img className="player-image" src={imgVoley} alt="image player" />
+        <img className="player-image" src={imgVoley} alt="player" />
         <div className="container-banner-text-voley">
           <h2 className="title">¡Clases semanales! Más de 140 inscriptos.</h2>
           <p className="subtitle">
