@@ -12,6 +12,7 @@ import Footer from "../../components/Footer";
 
 import { useTypewriter } from "react-simple-typewriter";
 import { useState } from "react";
+import { NavLink } from "react-router-dom";
 
 export default function Home() {
 
@@ -38,7 +39,7 @@ export default function Home() {
 
             <div className="big-container noticias">
                 <div className="videos-tit">
-                    <h1>{`Noticias >`} </h1>
+                    <NavLink to={"/noticias"} style={{textDecoration: "none"}}><h1>{`Noticias >`} </h1></NavLink>
                 </div>
                 <div className="container-noticias-home">
                     <div className="container-mini-noticia1 efectHov">

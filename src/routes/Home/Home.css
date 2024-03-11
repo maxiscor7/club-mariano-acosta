@@ -82,21 +82,21 @@
 
 .videos-tit {
     display: flex;
-    background-color: black;
+    background-color: rgb(255, 255, 255);
     padding: 20px;
 }
 
 .videos-tit h1 {
     -webkit-text-fill-color: transparent;
     -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: white;
+    -webkit-text-stroke-color: #1C3168;
     font-family: 'Roboto', sans-serif;
     font-size: 80px;
-    font-weight: 100;
+    font-weight: bold;
 }
 
 .videos-tit h1:hover {
-    -webkit-text-fill-color: white;
+    -webkit-text-fill-color: #1C3168;
     cursor: pointer;
 }
 

@@ -1,6 +1,26 @@
 .container-all-nabvar{
     background-color: #1C3168;
 }
+.container-social-media {
+    width: 100%;
+    height: 40px;
+    background-color: black;
+    display: flex;
+    align-items: center; /* Centra verticalmente los elementos */
+    justify-content: flex-end; /* Centra horizontalmente los elementos */
+  }
+  
+  .container-social-media img {
+    height: 30px;
+    width: 30px;
+    margin: 0 5px; /* Añade un pequeño margen entre las imágenes */
+  }
+  
+  .container-social-media p {
+    margin: 0;/* Elimina el margen predeterminado del párrafo */
+    font-family: 'Roboto', sans-serif;
+    color: white;
+  }
 .active{
     font-family: 'Roboto', sans-serif;
     font-weight: bolder;
@@ -58,6 +78,9 @@
     .container-links-navbar {
         margin-left: 100px; /* Ajusta el valor del margen según tus necesidades */
     }
+    .container-social-media {
+        padding-right: 100px; /* Añade un pequeño margen entre las imágenes */
+      }
 }
 
 @media only screen and (min-width: 1000px) {
@@ -68,6 +91,9 @@
 
   @media only screen and (max-width: 999px) {
     .container-logo{
+        justify-content: center;
+    }
+    .container-social-media {
         justify-content: center;
     }
   }

@@ -1,6 +1,8 @@
 import { NavLink } from 'react-router-dom';
 import './NavBrowserBst.css';
 import logo from "../assets/logo.png";
+import insta from "../assets/insta.png";
+import face from "../assets/face.png";
 
 
 export default function NavBrowserBst() {
@@ -13,6 +15,11 @@ export default function NavBrowserBst() {
                     <h2>Club Social y Deportivo</h2>
                     <h1>MARIANO ACOSTA</h1>
                 </div>
+            </div>
+            <div className='container-social-media'>
+                <p>Seguinos:</p>
+                <a href='https://www.instagram.com/club.mariano.acosta/' target='_blank'><img src={insta} alt=''/></a>
+                <a href='https://www.facebook.com/profile.php?id=61556710889445' target='_blank'><img src={face} alt=''/></a>
             </div>
             <nav className="navbar navbar-expand-lg bg-body-tertiary py-0 text-center" >
                 <div className="container-fluid">
