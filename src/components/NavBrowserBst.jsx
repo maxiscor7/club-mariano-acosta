@@ -87,10 +87,6 @@ export default function NavBrowserBst() {
                                 </ul>
                             </li>
 
-                            <li className="nav-item">
-                                <NavLink to={"/noticias"} className="nav-link">Noticias</NavLink>
-                            </li>
-
                             <li className="nav-item dropdown">
                                 <a className="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                     Indumentaria oficial

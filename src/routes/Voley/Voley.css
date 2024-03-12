@@ -48,6 +48,7 @@
 } 
 .container-banner-text-voley p {
     font-size: 35px;
+    
 }
 
 .container-voleypic-family {
@@ -61,40 +62,29 @@
 
 .pic-voley1 {
     object-fit: cover;
-    width: 800px;
+    max-width: 800px;
     height: 600px;
 }
 
 .container-text-voley {
     font-family: 'Roboto', sans-serif;
-    width: 600px;
+    max-width: 600px;
     height: 600px;
     padding: 10px;
     display: flex;
     flex-direction: column;
+    text-align: center;
+    padding-top: 20px;
     
 }
 
 .container-text-voley p {
-    padding-top: 20px;
     padding-left: 20px;
     padding-right: 20px;
-    font-size: 20px;
+    font-size: 18px;
     color: white;
 }
-.container-gallery-taekwondo-pic{
-    width: 100%;
-    height: auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-bottom: 50px;
-}
 
-.container-gallery-taekwondo-pic img:hover{
-    opacity: 0.5;
-    cursor: pointer;
-}
 
 @keyframes slideIn {
     to {

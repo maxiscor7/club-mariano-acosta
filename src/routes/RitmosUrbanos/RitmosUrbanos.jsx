@@ -44,22 +44,15 @@ export default function RitmosUrbanos() {
       <div className="container-ritmopic-family">
         <img className="pic-ritmo1" src={crew2} alt="equipo de ritmo urbano" />
         <div className="container-text-ritmo2">
-            <p>Fuimos a competencias en lugares como:</p>
-            <p>Luna Park Stadium</p>
-            <p>Gran Rex</p>
-            <p>Participamos de la apertura del Bailando 2023 acompañando a la banda “La T y la M”</p>
-            <p>También tenemos un MegaGrupo Juvenil que recibe el nombre de “KINGS CREW”
+            <h1>Fuimos a competencias en lugares como:</h1>
+            <p>Luna Park Stadium, Gran Rex, participamos de la apertura del Bailando 2023 acompañando a la banda “La T y la M”, tenemos un MegaGrupo Juvenil que recibe el nombre de “KINGS CREW”
             que es un entidad creada para representar
             a Mariano Acosta en el Torneo Internacional de Reggaeton (TIR)
             quedando posicionados a mitad de tabla, clasificando con 82,05
             puntos para el competir y defender el título para nuestro país.</p>
             <p>Para ser parte del Studio
-            adquieri más información a través de nuestro WhatsApp 11 2589-1437
-            nuestras redes sociales</p>
-            <p>Facebook: Urban Crew</p>
-            <p>Instagram: @urbancrew.21 - @_kingss.crew</p>
-            <p>YouTube: Alan Aveiro</p>
-            <p>TikTok: @.urban.crew</p>
+            adquieri más información a través de nuestro WhatsApp 11 2589-1437 y  nuestras redes sociales:</p>
+            <p>Facebook: Urban Crew, Instagram: @urbancrew.21 - @_kingss.crew, YouTube: Alan Aveiro, TikTok: @.urban.crew</p>
             
         </div>
 

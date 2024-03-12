@@ -63,24 +63,25 @@
 
 .pic-basquetbol1 {
     object-fit: cover;
-    width: 800px;
+    max-width: 800px;
     height: 600px;
 }
 
 .container-text-basquetbol {
     font-family: 'Roboto', sans-serif;
-    width: 600px;
+    max-width: 600px;
     height: 600px;
     padding: 10px;
     display: flex;
-    flex-direction: column;    
+    flex-direction: column;   
+    text-align: center; 
+    padding-top: 20px;
 }
 
 .container-text-basquetbol p {
-    padding-top: 20px;
     padding-left: 20px;
     padding-right: 20px;
-    font-size: 20px;
+    font-size: 18px;
     color: white;
 }
 
@@ -119,7 +120,7 @@
     }
     .container-text-basquetbol {
         width: 400px;
-        height: 400px;
+        height: 100%;
     }
     .container-text-basquetbol p {
         font-size: 15px;

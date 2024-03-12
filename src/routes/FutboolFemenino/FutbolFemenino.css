@@ -69,25 +69,25 @@
 
 .pic-FutbolFemenino1 {
     object-fit: cover;
-    width: 800px;
+    max-width: 800px;
     height: 600px;
 }
 
 .container-text-FutbolFemenino {
     font-family: 'Roboto', sans-serif;
-    width: 600px;
+    max-width: 600px;
     height: 600px;
     padding: 10px;
     display: flex;
     flex-direction: column;
-
+    text-align: center;
+    padding-top: 20px;
 }
 
 .container-text-FutbolFemenino p {
-    padding-top: 20px;
     padding-left: 20px;
     padding-right: 20px;
-    font-size: 20px;
+    font-size: 18px;
     color: white;
 }
 

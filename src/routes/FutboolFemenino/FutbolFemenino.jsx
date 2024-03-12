@@ -2,7 +2,7 @@ import React from 'react'
 import Footer from '../../components/Footer';
 import bannerVoley from "../../assets/banner-voley.jpeg";
 import futFemBanner from "../../assets/futFemBanner.png";
-import futFem from "../../assets/futFem.png";
+import futFem from "../../assets/futFem.jpeg";
 import './FutbolFemenino.css';
 import NavBrowserBst from '../../components/NavBrowserBst';
 
@@ -27,8 +27,7 @@ export default function FutbolFemenino() {
         </p>
         <p>Profesores: Micaela Ines Montagna y Nestor Figueroa</p>
         <p>Las practicas se desarrollan en nuestro nexo Polideportivo.</p>
-        <p>Info al: 1131848212 y/o 1150375322 (Comité Deportivo)</p>
-        <p>Mándanos un Whatsapp a los números aportados para informarte de los cronograma de prácticas y todo lo que quieras saber. Te esperamos
+        <p>Info al: 1131848212 y/o 1150375322 (Comité Deportivo), mándanos un Whatsapp a los números aportados para informarte de los cronograma de prácticas y todo lo que quieras saber. Te esperamos
         </p>
 
       </div>
