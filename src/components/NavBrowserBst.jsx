@@ -10,7 +10,7 @@ export default function NavBrowserBst() {
     return (
         <div className='container-all-nabvar'>
             <div className='container-logo'>
-                <img src={logo} alt='logo club social y deportivo mariano moreno' />
+                <a href='https://club-mariano-acosta.vercel.app/'><img src={logo} alt='logo club social y deportivo mariano moreno' /></a>
                 <div className='container-tit'>
                     <h2>Club Social y Deportivo</h2>
                     <h1>MARIANO ACOSTA</h1>
