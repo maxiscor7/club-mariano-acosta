@@ -39,7 +39,7 @@ export default function Home() {
 
             <div className="big-container noticias">
                 <div className="videos-tit">
-                    <NavLink to={"/noticias"} style={{textDecoration: "none"}}><h1>{`Noticias >`} </h1></NavLink>
+                    <h1>{`Noticias >`} </h1>
                 </div>
                 <div className="container-noticias-home">
                     <div className="container-mini-noticia1 efectHov">
