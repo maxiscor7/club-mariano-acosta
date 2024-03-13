@@ -22,7 +22,7 @@ export default function Socios() {
 
           <div className='last-part-socios'>
             <h1>Te contamos como podes asociarte</h1>
-            <p>En principio podes acercarte a nuestra cede ubicada en Cnel. Salvadores y Crisalide Ciudad de Mariano Acosta, Merlo a 20 Mts de la Rotonda de Villa Posse, anunciándote en nuestra secretaria donde allí solicitaras poder asociarte al CSDMA.</p>
+            <p>En principio podes acercarte a nuestra sede ubicada en Cnel. Salvadores y Crisalide Ciudad de Mariano Acosta, Merlo a 20 Mts de la Rotonda de Villa Posse, anunciándote en nuestra secretaria donde allí solicitaras poder asociarte al CSDMA.</p>
             <h4>Días y horario de atención:</h4>
             <p>Lunes y Jueves de 17:00 a 21:00 hs</p>
             <p>Martes, Miércoles y Viernes de 17:00 a 20:00 hs</p>
