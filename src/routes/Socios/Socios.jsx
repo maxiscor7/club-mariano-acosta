@@ -28,8 +28,8 @@ export default function Socios() {
             <p>Martes, Miércoles y Viernes de 17:00 a 20:00 hs</p>
             <p>Teléfono: (0220) 499-8123</p>
             <ul>
-              <li>Deberás llenara una planilla con datos filiatorios Nombre Completo, DNI, Ocupación, Dirección, Correo electrónico y Teléfono de contacto</li>
-              <li>Una vez abonado el pago mensual se te hará entrega de un Carne, donde en el frente figurara tu Apellido y Nombre fecha de alta y numero de socio, al reverso figurar tu firma la del presidente y secretario de esta institución</li>
+              <li>Deberás llenar una planilla con datos filiatorios Nombre Completo, DNI, Ocupación, Dirección, Correo electrónico y Teléfono de contacto</li>
+              <li>Una vez abonado el pago mensual se te hará entrega de un Carnet, donde en el frente figurara tu Apellido y Nombre fecha de alta y numero de socio, al reverso figurará tu firma, la del presidente y secretario de esta institución</li>
               <li>Ser socio del Club Social y Deportivo Mariano Acosta, te habilita a poder realizar cualquiera de las actividades que se desarrollan en nuestra sede como en el nexo Polideportivo ubicado en Bossini y Copa Cabana.</li>
               <li>Beneficios en las compras mensuales en distintos Negocios de la Zona los cuales verán reflejados e informados en nuestra Pagina Web</li>
               <li>Tendrás beneficios en alquileres de espacios de nuestras instalaciones, previo a una antigüedad que se te informara en secretaria.</li>
