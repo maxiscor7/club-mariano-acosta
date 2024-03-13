@@ -22,7 +22,7 @@ import Historia from './routes/Historia';
 import SedeSocial from './routes/SedeSocial';
 import AnexoPoli from './routes/AnexoPoli';
 import Folklore from './routes/Folklore';
-import Socios from './routes/Socios';
+import Socios from './routes/Socios/Socios';
 import Noticias from './routes/Noticias';
 import Indumentaria from "./routes/Indumentaria";
 /*

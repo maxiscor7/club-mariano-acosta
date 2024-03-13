@@ -1,0 +1,109 @@
+.big-container-socios{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.container-socios {
+    background-color: #1C3168;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    width: 100%;
+}
+
+.container-socios img {
+    max-width: 678px;
+    height: 100%;
+    object-fit: cover;
+}
+
+.container-text-socios {
+    width: 650px;
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+.container-text-socios h1 {
+    font-size: 60px;
+    color: white;
+}
+
+.container-text-socios h2 {
+    font-size: 40px;
+    color: rgb(187, 183, 183);
+
+}
+.linea-divisora-socios{
+    background-color: white;
+    height: 2px;
+    width: 100%;
+}
+.last-part-bigContainer-socios{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1C3168;
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+}
+.last-part-socios{
+    text-align: center;
+    width: 650px;
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+
+}
+.last-part-socios h1, .last-part-socios h4{
+    color: white;
+}
+.last-part-socios p{
+    color: rgb(187, 183, 183);
+}
+.last-part-socios li{
+    color: rgb(187, 183, 183);
+    padding: 10px;
+}
+@media only screen and (min-width: 1300px) {
+    .container-text-socios{
+        margin-left: 80px;
+        padding: 40px;
+    }
+}
+@media only screen and (max-width: 1299px) {
+    .linea-divisora-socios{
+        width: 650px;
+    }
+    .container-text-socios{
+        margin-top: 40px;
+    }
+}
+@media only screen and (max-width: 670px) {
+    .linea-divisora-socios{
+        width: 100%;
+    }
+    .container-text-socios{
+        width: 100%;
+        padding: 10px;
+    }
+    .container-text-socios h1{
+        font-size: 50px;
+    }
+    .container-text-socios h2{
+        font-size: 30px;
+    }
+    .last-part-socios{
+        width: 100%;
+        padding: 10px;
+    }
+    .container-socios img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
