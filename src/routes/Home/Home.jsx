@@ -2,10 +2,14 @@ import NavBrowserBst from "../../components/NavBrowserBst";
 import banner from "../../assets/banner.png"
 import miniatura1 from "../../assets/miniatura1.jpeg"
 import miniatura2 from "../../assets/miniatura2.jpeg"
-import notiFut from "../../assets/noti-fut-inf.png"
-import notiHock from "../../assets/noti-hock.png"
-import notiMini from "../../assets/noti-mini.png"
-import notiTae from "../../assets/noti-tae.png"
+import noti1 from "../../assets/taeNoti.jpeg"
+import noti2 from "../../assets/hockey.jpg"
+import noti3 from "../../assets/futFem.jpeg"
+import noti4 from "../../assets/cierreA.jpg"
+import noti5 from "../../assets/basqNoti.jpg"
+import noti6 from "../../assets/futInfNoti.jpg"
+import logo from "../../assets/logo.png"
+
 import './Home.css'
 
 import Footer from "../../components/Footer";
@@ -42,17 +46,70 @@ export default function Home() {
                     <h1>{`Noticias >`} </h1>
                 </div>
                 <div className="container-noticias-home">
-                    <div className="container-mini-noticia1 efectHov">
-                        <img src={notiFut} alt="noticias" />
+                    <div className="noti-secicion">
+                        <div className="noticia-bigone">
+                            <div className="inside-notiBigone-container-pic">
+                                <img src={noti1} alt="competicion de taekwondo" />
+                                <img id="logo-noticias" src={logo} alt="logo del club" />
+                                <h1>TAEKWONDO</h1>
+                            </div>
+                            <div className="inside-notiBigone-container-text">
+
+                            </div>
+                        </div>
+                        <div className="cont-insideContainer-bigone">
+                            <div className="noticia-smallones">
+                                <div className="inside-notiSmallone-container-pic">
+                                    <img src={noti2} alt="equipo de hockey" />
+                                    <img id="logo-noticias" src={logo} alt="logo del club" />
+                                </div>
+                                <div className="inside-notiSmallone-container-text">
+
+                                </div>
+                            </div>
+                            <div className="noticia-smallones">
+                                <div className="inside-notiSmallone-container-pic">
+                                    <img src={noti3} alt="equipo de futbol femenino" />
+                                    <img id="logo-noticias" src={logo} alt="logo del club" />
+
+                                </div>
+                                <div className="inside-notiSmallone-container-text">
+
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div className="container-mini-noticia2 efectHov">
-                        <img src={notiTae} alt="noticias" />
-                    </div>
-                    <div className="container-mini-noticia4 efectHov">
-                        <img src={notiHock} alt="noticias" />
-                    </div>
-                    <div className="container-mini-noticia3 efectHov">
-                        <img src={notiMini} alt="noticias" />
+                    <div className="noti-secicion">
+                        <div className="noticia-smallones">
+                            <div className="inside-notiSmallone-container-pic">
+                                <img src={noti4} alt="cierre de año en polideportivo" />
+                                <img id="logo-noticias" src={logo} alt="logo del club" />
+
+                            </div>
+                            <div className="inside-notiSmallone-container-text">
+
+                            </div>
+                        </div>
+                        <div className="noticia-smallones">
+                            <div className="inside-notiSmallone-container-pic">
+                                <img src={noti5} alt="equipo de futbol femenino" />
+                                <img id="logo-noticias" src={logo} alt="logo del club" />
+
+                            </div>
+                            <div className="inside-notiSmallone-container-text">
+
+                            </div>
+                        </div>
+                        <div className="noticia-smallones">
+                            <div className="inside-notiSmallone-container-pic">
+                                <img src={noti6} alt="equipo de futbol femenino" />
+                                <img id="logo-noticias" src={logo} alt="logo del club" />
+
+                            </div>
+                            <div className="inside-notiSmallone-container-text">
+
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
