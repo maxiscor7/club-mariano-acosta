@@ -1,0 +1,36 @@
+.big-container-contact{
+    background-color: #1C3168;
+}
+.lineUp-container-mapclub{
+    width: 100%;
+    height: 50px;
+    background-color: black;
+}
+.container-firstPart-of-contact{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.container-textLegend-contact{
+    max-width: 650px ;
+    font-family: 'Roboto', sans-serif;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+.container-textLegend-contact h1{
+    color: white;
+}
+.container-textLegend-contact p, .container-textLegend-contact li{
+    color: rgb(187, 183, 183);
+}
+.container-textLegend-contact h4{
+    color: white;
+}
+.container-form{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}

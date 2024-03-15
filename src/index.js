@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Home from './routes/Home/Home';
-import Contact from './routes/Contact';
+import Contact from './routes/Contact/Contact';
 import Events from './routes/Events';
 import Taekwondo from './routes/Taekwondo/Taekwondo';
 import Hockey from './routes/Hockey/Hockey';
