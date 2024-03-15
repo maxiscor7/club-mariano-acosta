@@ -9,6 +9,8 @@ import noti4 from "../../assets/cierreA.jpg"
 import noti5 from "../../assets/basqNoti.jpg"
 import noti6 from "../../assets/futInfNoti.jpg"
 import logo from "../../assets/logo.png"
+import insta from "../../assets/insta.png";
+import face from "../../assets/face.png";
 
 import './Home.css'
 
@@ -54,7 +56,14 @@ export default function Home() {
                                 <h1>TAEKWONDO</h1>
                             </div>
                             <div className="inside-notiBigone-container-text">
-
+                                <div className="miniBigone-noti-container-text">
+                                    <p>Veni a entrenar, divertirte y competir.
+                                    <br/>De lunes a viernes 19:30 a 21 hs</p>
+                                </div>
+                                <div className="container-links-inside-noti-text">
+                                    <img src={face} alt="facebook link" />
+                                    <img src={insta} alt="instagram link" />
+                                </div>
                             </div>
                         </div>
                         <div className="cont-insideContainer-bigone">
@@ -62,19 +71,34 @@ export default function Home() {
                                 <div className="inside-notiSmallone-container-pic">
                                     <img src={noti2} alt="equipo de hockey" />
                                     <img id="logo-noticias" src={logo} alt="logo del club" />
+                                    <h1>HOCKEY</h1>
                                 </div>
                                 <div className="inside-notiSmallone-container-text">
-
+                                    <div className="mini-noti-container-text">
+                                        <p>Veni anotate, ya arrancamos los entrenamientos.
+                                        <br/>Planteles femeninos y masculinos</p>
+                                    </div>
+                                    <div className="container-links-inside-noti-text">
+                                        <img src={face} alt="facebook link" />
+                                        <img src={insta} alt="instagram link" />
+                                    </div>
                                 </div>
                             </div>
                             <div className="noticia-smallones">
                                 <div className="inside-notiSmallone-container-pic">
                                     <img src={noti3} alt="equipo de futbol femenino" />
                                     <img id="logo-noticias" src={logo} alt="logo del club" />
-
+                                    <h1>FUTBOL FEMENINO</h1>
                                 </div>
                                 <div className="inside-notiSmallone-container-text">
-
+                                    <div className="mini-noti-container-text">
+                                        <h4>¡INSCRIPCIONES ABIERTAS!</h4>
+                                        <p>Planteles femeninos y masculinos</p>
+                                    </div>
+                                    <div className="container-links-inside-noti-text">
+                                        <img src={face} alt="facebook link" />
+                                        <img src={insta} alt="instagram link" />
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -84,30 +108,54 @@ export default function Home() {
                             <div className="inside-notiSmallone-container-pic">
                                 <img src={noti4} alt="cierre de año en polideportivo" />
                                 <img id="logo-noticias" src={logo} alt="logo del club" />
+                                <h1>CIERRE TRIUNFAL</h1>
 
                             </div>
                             <div className="inside-notiSmallone-container-text">
-
+                                <div className="mini-noti-container-text">
+                                <p>Nuestras escuelitas despidieron el año en el polideportivo, llenos de alegria junto a los profesores, comite deportivo y comision directiva</p>
+                                </div>
+                                <div className="container-links-inside-noti-text">
+                                    <img src={face} alt="facebook link" />
+                                    <img src={insta} alt="instagram link" />
+                                </div>
                             </div>
                         </div>
                         <div className="noticia-smallones">
                             <div className="inside-notiSmallone-container-pic">
                                 <img src={noti5} alt="equipo de futbol femenino" />
                                 <img id="logo-noticias" src={logo} alt="logo del club" />
+                                <h1>BASQUET</h1>
 
                             </div>
                             <div className="inside-notiSmallone-container-text">
-
+                                <div className="mini-noti-container-text">
+                                    <p>Así disfrutamos del amistoso femenino de básquet.
+                                    <br/>Que esperas para sumarte</p>
+                                </div>
+                                <div className="container-links-inside-noti-text">
+                                    <img src={face} alt="facebook link" />
+                                    <img src={insta} alt="instagram link" />
+                                </div>
                             </div>
                         </div>
                         <div className="noticia-smallones">
                             <div className="inside-notiSmallone-container-pic">
                                 <img src={noti6} alt="equipo de futbol femenino" />
                                 <img id="logo-noticias" src={logo} alt="logo del club" />
+                                <h1>FUTBOL INFANTIL</h1>
 
                             </div>
                             <div className="inside-notiSmallone-container-text">
-
+                                <div className="mini-noti-container-text">
+                                    <p>Empieza el torneo 2024.
+                                    <br/>Ya somos mas de 160 alumnos.</p>
+                                    <h4>¡ANOTATE!</h4>
+                                </div>
+                                <div className="container-links-inside-noti-text">
+                                    <img src={face} alt="facebook link" />
+                                    <img src={insta} alt="instagram link" />
+                                </div>
                             </div>
                         </div>
                     </div>
