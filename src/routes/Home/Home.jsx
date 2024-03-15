@@ -58,11 +58,11 @@ export default function Home() {
                             <div className="inside-notiBigone-container-text">
                                 <div className="miniBigone-noti-container-text">
                                     <p>Veni a entrenar, divertirte y competir.
-                                    <br/>De lunes a viernes 19:30 a 21 hs</p>
+                                        <br />De lunes a viernes 19:30 a 21 hs.</p>
                                 </div>
                                 <div className="container-links-inside-noti-text">
-                                    <img src={face} alt="facebook link" />
-                                    <img src={insta} alt="instagram link" />
+                                    <a href='https://www.facebook.com/profile.php?id=61556710889445' target='_blank'><img src={face} alt="facebook link" /></a>
+                                    <a href='https://www.instagram.com/club.mariano.acosta/' target='_blank' ><img src={insta} alt="instagram link" /></a>
                                 </div>
                             </div>
                         </div>
@@ -76,11 +76,11 @@ export default function Home() {
                                 <div className="inside-notiSmallone-container-text">
                                     <div className="mini-noti-container-text">
                                         <p>Veni anotate, ya arrancamos los entrenamientos.
-                                        <br/>Planteles femeninos y masculinos</p>
+                                            <br />Planteles femeninos y masculinos.</p>
                                     </div>
                                     <div className="container-links-inside-noti-text">
-                                        <img src={face} alt="facebook link" />
-                                        <img src={insta} alt="instagram link" />
+                                        <a href='https://www.facebook.com/profile.php?id=61556710889445' target='_blank'><img src={face} alt="facebook link" /></a>
+                                        <a href='https://www.instagram.com/club.mariano.acosta/' target='_blank' ><img src={insta} alt="instagram link" /></a>
                                     </div>
                                 </div>
                             </div>
@@ -93,11 +93,11 @@ export default function Home() {
                                 <div className="inside-notiSmallone-container-text">
                                     <div className="mini-noti-container-text">
                                         <h4>¡INSCRIPCIONES ABIERTAS!</h4>
-                                        <p>Planteles femeninos y masculinos</p>
+                                        <p>Planteles femeninos y masculinos.</p>
                                     </div>
                                     <div className="container-links-inside-noti-text">
-                                        <img src={face} alt="facebook link" />
-                                        <img src={insta} alt="instagram link" />
+                                        <a href='https://www.facebook.com/profile.php?id=61556710889445' target='_blank'><img src={face} alt="facebook link" /></a>
+                                        <a href='https://www.instagram.com/club.mariano.acosta/' target='_blank' ><img src={insta} alt="instagram link" /></a>
                                     </div>
                                 </div>
                             </div>
@@ -113,11 +113,11 @@ export default function Home() {
                             </div>
                             <div className="inside-notiSmallone-container-text">
                                 <div className="mini-noti-container-text">
-                                <p>Nuestras escuelitas despidieron el año en el polideportivo, llenos de alegria junto a los profesores, comite deportivo y comision directiva</p>
+                                    <p>Nuestras escuelitas despidieron el año en el polideportivo, llenos de alegria junto a los profesores, comite deportivo y comision directiva.</p>
                                 </div>
                                 <div className="container-links-inside-noti-text">
-                                    <img src={face} alt="facebook link" />
-                                    <img src={insta} alt="instagram link" />
+                                    <a href='https://www.facebook.com/profile.php?id=61556710889445' target='_blank'><img src={face} alt="facebook link" /></a>
+                                    <a href='https://www.instagram.com/club.mariano.acosta/' target='_blank' ><img src={insta} alt="instagram link" /></a>
                                 </div>
                             </div>
                         </div>
@@ -131,11 +131,11 @@ export default function Home() {
                             <div className="inside-notiSmallone-container-text">
                                 <div className="mini-noti-container-text">
                                     <p>Así disfrutamos del amistoso femenino de básquet.
-                                    <br/>Que esperas para sumarte</p>
+                                        <br />¿Que esperas para sumarte?</p>
                                 </div>
                                 <div className="container-links-inside-noti-text">
-                                    <img src={face} alt="facebook link" />
-                                    <img src={insta} alt="instagram link" />
+                                    <a href='https://www.facebook.com/profile.php?id=61556710889445' target='_blank'><img src={face} alt="facebook link" /></a>
+                                    <a href='https://www.instagram.com/club.mariano.acosta/' target='_blank' ><img src={insta} alt="instagram link" /></a>
                                 </div>
                             </div>
                         </div>
@@ -149,12 +149,12 @@ export default function Home() {
                             <div className="inside-notiSmallone-container-text">
                                 <div className="mini-noti-container-text">
                                     <p>Empieza el torneo 2024.
-                                    <br/>Ya somos mas de 160 alumnos.</p>
+                                        <br />Ya somos mas de 160 alumnos.</p>
                                     <h4>¡ANOTATE!</h4>
                                 </div>
                                 <div className="container-links-inside-noti-text">
-                                    <img src={face} alt="facebook link" />
-                                    <img src={insta} alt="instagram link" />
+                                    <a href='https://www.facebook.com/profile.php?id=61556710889445' target='_blank'><img src={face} alt="facebook link" /></a>
+                                    <a href='https://www.instagram.com/club.mariano.acosta/' target='_blank' ><img src={insta} alt="instagram link" /></a>
                                 </div>
                             </div>
                         </div>

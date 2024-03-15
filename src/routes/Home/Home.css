@@ -136,6 +136,12 @@
     z-index: 1;
     cursor: pointer;
 }
+.noticia-bigone a:hover{
+    opacity: 0.5;
+}
+.noticia-smallones a:hover{
+    opacity: 0.5;
+}
 
 .noticia-smallones {
     background-color: aqua;
