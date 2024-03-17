@@ -18,8 +18,8 @@ export default function NavBrowserBst() {
             </div>
             <div className='container-social-media'>
                 <p>Seguinos:</p>
-                <a href='https://www.instagram.com/club.mariano.acosta/' target='_blank'><img src={insta} alt=''/></a>
-                <a href='https://www.facebook.com/profile.php?id=61556710889445' target='_blank'><img src={face} alt=''/></a>
+                <a href='https://www.instagram.com/club.mariano.acosta/' target='_blank' rel="noreferrer"><img src={insta} alt=''/></a>
+                <a href='https://www.facebook.com/profile.php?id=61556710889445' target='_blank' rel="noreferrer"><img src={face} alt=''/></a>
             </div>
             <nav className="navbar navbar-expand-lg bg-body-tertiary py-0 text-center" >
                 <div className="container-fluid">

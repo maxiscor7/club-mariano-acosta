@@ -31,9 +31,6 @@
 }
 
 
-
-
-
 .container-videos-home {
     display: flex;
     flex-direction: column;
@@ -60,7 +57,9 @@
     cursor: pointer;
 }
 
-
+.banner-sponsor1{
+    margin-bottom: 40px;
+}
 
 
 .conatiner-miniaturas-videos {

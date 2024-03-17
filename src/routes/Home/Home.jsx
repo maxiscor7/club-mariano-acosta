@@ -11,6 +11,7 @@ import noti6 from "../../assets/futInfNoti.jpg"
 import logo from "../../assets/logo.png"
 import insta from "../../assets/insta.png";
 import face from "../../assets/face.png";
+import SponsorSlider from "../../components/SponsorSlider";
 
 import './Home.css'
 
@@ -18,7 +19,7 @@ import Footer from "../../components/Footer";
 
 import { useTypewriter } from "react-simple-typewriter";
 import { useState } from "react";
-import { NavLink } from "react-router-dom";
+
 
 export default function Home() {
 
@@ -42,6 +43,9 @@ export default function Home() {
 
                 </div>
             </div>
+            <div class="banner-sponsor1">
+                <SponsorSlider/>
+            </div>
 
             <div className="big-container noticias">
                 <div className="videos-tit">
@@ -61,8 +65,8 @@ export default function Home() {
                                         <br />De lunes a viernes 19:30 a 21 hs.</p>
                                 </div>
                                 <div className="container-links-inside-noti-text">
-                                    <a href='https://www.facebook.com/profile.php?id=61556710889445' target='_blank'><img src={face} alt="facebook link" /></a>
-                                    <a href='https://www.instagram.com/club.mariano.acosta/' target='_blank' ><img src={insta} alt="instagram link" /></a>
+                                    <a href='https://www.facebook.com/profile.php?id=61556710889445' target='_blank' rel="noreferrer"><img src={face} alt="facebook link" /></a>
+                                    <a href='https://www.instagram.com/club.mariano.acosta/' target='_blank' rel="noreferrer" ><img src={insta} alt="instagram link" /></a>
                                 </div>
                             </div>
                         </div>
@@ -79,8 +83,8 @@ export default function Home() {
                                             <br />Planteles femeninos y masculinos.</p>
                                     </div>
                                     <div className="container-links-inside-noti-text">
-                                        <a href='https://www.facebook.com/profile.php?id=61556710889445' target='_blank'><img src={face} alt="facebook link" /></a>
-                                        <a href='https://www.instagram.com/club.mariano.acosta/' target='_blank' ><img src={insta} alt="instagram link" /></a>
+                                        <a href='https://www.facebook.com/profile.php?id=61556710889445' target='_blank' rel="noreferrer"><img src={face} alt="facebook link" /></a>
+                                        <a href='https://www.instagram.com/club.mariano.acosta/' target='_blank' rel="noreferrer"><img src={insta} alt="instagram link" /></a>
                                     </div>
                                 </div>
                             </div>
@@ -96,8 +100,8 @@ export default function Home() {
                                         <p>Planteles femeninos y masculinos.</p>
                                     </div>
                                     <div className="container-links-inside-noti-text">
-                                        <a href='https://www.facebook.com/profile.php?id=61556710889445' target='_blank'><img src={face} alt="facebook link" /></a>
-                                        <a href='https://www.instagram.com/club.mariano.acosta/' target='_blank' ><img src={insta} alt="instagram link" /></a>
+                                        <a href='https://www.facebook.com/profile.php?id=61556710889445' target='_blank' rel="noreferrer"><img src={face} alt="facebook link" /></a>
+                                        <a href='https://www.instagram.com/club.mariano.acosta/' target='_blank' rel="noreferrer" ><img src={insta} alt="instagram link" /></a>
                                     </div>
                                 </div>
                             </div>
@@ -116,8 +120,8 @@ export default function Home() {
                                     <p>Nuestras escuelitas despidieron el año en el polideportivo, llenos de alegria junto a los profesores, comite deportivo y comision directiva.</p>
                                 </div>
                                 <div className="container-links-inside-noti-text">
-                                    <a href='https://www.facebook.com/profile.php?id=61556710889445' target='_blank'><img src={face} alt="facebook link" /></a>
-                                    <a href='https://www.instagram.com/club.mariano.acosta/' target='_blank' ><img src={insta} alt="instagram link" /></a>
+                                    <a href='https://www.facebook.com/profile.php?id=61556710889445' target='_blank' rel="noreferrer"><img src={face} alt="facebook link" /></a>
+                                    <a href='https://www.instagram.com/club.mariano.acosta/' target='_blank' rel="noreferrer"><img src={insta} alt="instagram link" /></a>
                                 </div>
                             </div>
                         </div>
@@ -134,8 +138,8 @@ export default function Home() {
                                         <br />¿Que esperas para sumarte?</p>
                                 </div>
                                 <div className="container-links-inside-noti-text">
-                                    <a href='https://www.facebook.com/profile.php?id=61556710889445' target='_blank'><img src={face} alt="facebook link" /></a>
-                                    <a href='https://www.instagram.com/club.mariano.acosta/' target='_blank' ><img src={insta} alt="instagram link" /></a>
+                                    <a href='https://www.facebook.com/profile.php?id=61556710889445' target='_blank' rel="noreferrer"><img src={face} alt="facebook link" /></a>
+                                    <a href='https://www.instagram.com/club.mariano.acosta/' target='_blank' rel="noreferrer"><img src={insta} alt="instagram link" /></a>
                                 </div>
                             </div>
                         </div>
@@ -153,8 +157,8 @@ export default function Home() {
                                     <h4>¡ANOTATE!</h4>
                                 </div>
                                 <div className="container-links-inside-noti-text">
-                                    <a href='https://www.facebook.com/profile.php?id=61556710889445' target='_blank'><img src={face} alt="facebook link" /></a>
-                                    <a href='https://www.instagram.com/club.mariano.acosta/' target='_blank' ><img src={insta} alt="instagram link" /></a>
+                                    <a href='https://www.facebook.com/profile.php?id=61556710889445' target='_blank' rel="noreferrer"><img src={face} alt="facebook link" /></a>
+                                    <a href='https://www.instagram.com/club.mariano.acosta/' target='_blank' rel="noreferrer"><img src={insta} alt="instagram link" /></a>
                                 </div>
                             </div>
                         </div>
