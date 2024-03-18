@@ -11,12 +11,9 @@ import Voley from './routes/Voley/Voley';
 import Basquetbol from './routes/Basquetbol/Basquetbol';
 import FutbolFemenino from './routes/FutboolFemenino/FutbolFemenino';
 import FutbolMasculino from './routes/FutbolMasculino/FutbolMasculino';
-import PatinArtistico from './routes/PatinArtistico';
+import PatinArtistico from './routes/PatinArtistico/PatinArtistico';
 import KickBoxing from './routes/KickBoxing/KickBoxing';
-import Zumba from './routes/Zumba';
 import Rock from './routes/Rock/Rock';
-import ReggaetonInfantil from './routes/ReggatonInfantil';
-import EscuelaDePadle from './routes/EscuelaDePadle';
 import Historia from './routes/Historia';
 import SedeSocial from './routes/SedeSocial';
 import AnexoPoli from './routes/AnexoPoli';
@@ -54,10 +51,7 @@ const router = createBrowserRouter([
         path: "/kick-boxing",
         element: <KickBoxing/>,
     },
-    {
-        path: "/zumba",
-        element: <Zumba/>,
-    },
+    
     {
         path: "/indumentaria",
         element: <Indumentaria/>
@@ -83,16 +77,8 @@ const router = createBrowserRouter([
         element: <FutbolFemenino/>,
     },
     {
-        path: "/reggaeton-infantil",
-        element: <ReggaetonInfantil/>,
-    },
-    {
         path: "/futbol-masculino",
         element: <FutbolMasculino/>,
-    },
-    {
-        path: "/escuela-de-padle",
-        element: <EscuelaDePadle/>,
     },
     {
         path: "/basquetbol",
