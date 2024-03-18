@@ -15,7 +15,7 @@ import RitmosUrbanos from './routes/RitmosUrbanos/RitmosUrbanos';
 import PatinArtistico from './routes/PatinArtistico';
 import KickBoxing from './routes/KickBoxing/KickBoxing';
 import Zumba from './routes/Zumba';
-import Rock from './routes/Rock';
+import Rock from './routes/Rock/Rock';
 import ReggaetonInfantil from './routes/ReggatonInfantil';
 import EscuelaDePadle from './routes/EscuelaDePadle';
 import Historia from './routes/Historia';
