@@ -1,206 +1,104 @@
-.container-div-FutbolFemenino{
+.container-div-seccionGenerica{
     background-color: #1C3168;
 }
-.container-banner-FutbolFemenino {
+.container-banner-seccionGenerica {
     position: relative;
-    width: 100%;
-    height: 600px;
-}
-
-.banner-FutbolFemenino {
-    object-fit: cover;
     width: 100%;
     height: 100%;
 }
 
-.player-image-FutbolFemenino {
-    position: absolute;
-    bottom: 0;
-    left: 100%;
-    /* Inicialmente fuera del contenedor a la derecha */
-    transform: translateX(-100%);
-    width: 700px;
-    height: 500px;
+.banner-seccionGenerica {
     object-fit: cover;
-    opacity: 0;
-    /* Inicialmente oculto */
-    animation: fadeIn 0.2s ease-in-out 1s forwards, slideIn 1s ease-in-out 1s forwards;
-    /* fadeIn y slideIn con un retraso de 1 segundo */
+    width: 100%;
+    height: 600px;
 }
 
-.container-banner-text-FutbolFemenino {
-    position: absolute;
-    top: 110px;
-    right: 250px;
-    font-family: 'Roboto', sans-serif;
-    width: 40%;
-    text-align: center;
-    opacity: 0;
-    /* Inicialmente oculto */
-    animation: fadeInText 0.5s ease-in-out 2s forwards;
-    /* fadeInText con un retraso de 2 segundos */
-}
 
-@keyframes fadeInText {
-    to {
-        opacity: 1;
-        /* Hace que el contenedor sea visible al final de la animación */
-    }
-}
-
-.container-banner-text-FutbolFemenino h2 {
-    font-size: 45px;
-    color: white;
-    margin-bottom: 30px;
-}
-
-.container-banner-text-FutbolFemenino p {
-    font-size: 35px;
-}
-
-.container-FutbolFemeninopic-family {
+.container-seccionGenericaPic-family {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    width: 100%;
     margin-top: 100px;
     margin-bottom: 50px;
-    width: 100%;
 }
 
-.pic-FutbolFemenino1 {
+.pic-seccionGenerica1 {
     object-fit: cover;
     max-width: 800px;
     height: 600px;
 }
 
-.container-text-FutbolFemenino {
+.container-text-seccionGenerica {
     font-family: 'Roboto', sans-serif;
     max-width: 600px;
     height: 600px;
     padding: 10px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     text-align: center;
-    padding-top: 20px;
+
 }
 
-.container-text-FutbolFemenino p {
-    padding-left: 20px;
-    padding-right: 20px;
-    font-size: 18px;
+.container-text-seccionGenerica h1 {
     color: white;
+    font-size: 30px;
+
 }
 
+.container-text-seccionGenerica p {
+    padding-top: 20px;
+    font-size: 18px;
+    color: rgb(207, 202, 202);
 
-
-@keyframes slideIn {
-    to {
-        left: 0;
-        /* Mueve la imagen hacia la izquierda y la deja allí */
-        transform: translateX(0);
-    }
 }
 
-@media only screen and (max-width: 1290px) {
-    .container-banner-text-FutbolFemenino {
-        right: 50px;
-    }
-}
-
-@media only screen and (max-width: 1110px) {
-    .container-banner-text-FutbolFemenino {
-        top: 110px;
-        right: 50px;
-        width: 40%;
-    }
-
-    .player-image-FutbolFemenino {
-        width: 600px;
+@media only screen and (max-width: 1285px) {
+    .banner-seccionGenerica {   
         height: 400px;
+    }
+    .container-seccionGenericaPic-family {
+        
+        margin-top: 50px;
+        
+    }
+    
+}
+@media only screen and (max-width: 950px) {
+    .banner-seccionGenerica {   
+        height: 300px;
+    }
+}
+@media only screen and (max-width: 685px) {
+    .banner-seccionGenerica {   
+        height: 230px;
     }
 }
 
 @media only screen and (max-width: 850px) {
-    .pic-FutbolFemenino1 {
-        width: 100%;
+    .pic-seccionGenerica1 {
         height: 300px;
+        width: 100%;
     }
+    
 
-    .container-banner-text-FutbolFemenino {
-        width: 70%;
-    }
-
-    .container-banner-text-FutbolFemenino h2 {
-        font-size: 35px;
-    }
-
-    .container-banner-text-FutbolFemenino p {
-        font-size: 25px;
-    }
-
-    .container-text-FutbolFemenino {
+    .container-text-seccionGenerica {
+        margin-top: 30px;
         width: 400px;
-        height: 400px;
+        min-height: 400px;
     }
-
-    .container-text-FutbolFemenino p {
+    .container-text-seccionGenerica p{
         font-size: 15px;
     }
-
-    .container-text-FutbolFemenino h1 {
+    .container-text-seccionGenerica h1{
         font-size: 22px;
-    }
-
-    .player-image-FutbolFemenino {
-        width: 500px;
-        height: 300px;
-    }
-
-    @keyframes slideIn {
-        to {
-            left: 20%;
-            /* Mueve la imagen hacia la izquierda y la deja allí */
-            transform: translateX(0);
-        }
     }
 }
 
-@media only screen and (max-width: 650px) {
-    .container-banner-text-FutbolFemenino {
-        top: 20px;
-        margin-right: 10px;
+@media only screen and (max-width: 400px) {
+    .banner-seccionGenerica {   
+        height: 150px;
     }
 
-    .container-banner-text-FutbolFemenino h2 {
-        font-size: 28px;
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-
-    .container-banner-text-FutbolFemenino p {
-        font-size: 20px;
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-
-   
-
-    .container-text-FutbolFemenino {
-        height: 100%;
-    }
-
-    @media only screen and (max-width: 550px) {
-        .player-image-FutbolFemenino {
-            width: 100%;
-            height: 280px;
-        }
-    
-        @keyframes slideIn {
-            to {
-                left: -5%;
-                /* Mueve la imagen hacia la izquierda y la deja allí */
-                transform: translateX(0);
-            }
-        }
-    }
 }

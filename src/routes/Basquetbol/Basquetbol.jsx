@@ -1,28 +1,20 @@
-import React from 'react'
 import Footer from '../../components/Footer';
-import bannerVoley from "../../assets/banner-voley.jpeg";
-import basquetPic from "../../assets/basquetPic.png";
+import bannerBasquet from "../../assets/bannerBasquet.png";
 import basquetKids from "../../assets/basquetKids.jpg";
-import './Basquetbol.css';
 import NavBrowserBst from '../../components/NavBrowserBst';
+import './Basquetbol.css';
 
 export default function Basquetbol() {
   return (
-    <div className="container-div-basquetbol">
+    <div className="container-div-seccionGenerica">
       <NavBrowserBst />
-      <div className="container-banner-basquetbol">
-        <img className="banner-basquetbol" src={bannerVoley} alt="banner basquetbol" />
-        <img className="player-image-basquetbol" src={basquetPic} alt="player" />
-        <div className="container-banner-text-basquetbol">
-          <h2 className="title">Anótate en Basquet CLUB M.ACOSTA</h2>
-          <p className="subtitle">
-            Entrena, disfruta y competi al maximo nivel
-          </p>
-        </div>
+      <div className="container-banner-seccionGenerica">
+        <img className="banner-seccionGenerica" src={bannerBasquet} alt="banner basquetbol" />
+        
       </div>
-      <div className="container-basquetbolpic-family">
-        <img className="pic-basquetbol1" src={basquetKids} alt="equipo de basquetbol" />
-        <div className="container-text-basquetbol">
+      <div className="container-seccionGenericaPic-family">
+        <img className="pic-seccionGenerica1" src={basquetKids} alt="equipo de basquetbol" />
+        <div className="container-text-seccionGenerica">
           <p>Esta es una de nuestras tantas Disciplinas, donde los Guerreros/as que se suman a este Actividad sabemos que tienen una Capacidad y Destreza distinta a muchos deportistas. Es una Actividad donde las clases son dictadas por profesores altamente Capacitados, con el acompañamiento, Coordinación y accesoramiento del cuerpo Deportivo del Club Unitarios de nuestra Localidad Vecina Marcos Paz, ya que todos sabemos que Unitario es una Institución reconocida por su gran labor, constancia y calidad deportiva respecto al BASQUET. 
           </p>
           <p>Profesor: Facundo Lopez</p>

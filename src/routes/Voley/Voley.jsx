@@ -1,28 +1,20 @@
-import React from 'react'
 import Footer from '../../components/Footer';
-import bannerVoley from "../../assets/banner-voley.jpeg";
-import imgVoley from "../../assets/imgVoley.png";
+import bannerVoley from "../../assets/bannerVoley.png";
 import voleyPic from "../../assets/voleyPic.jpeg";
 import './Voley.css';
 import NavBrowserBst from '../../components/NavBrowserBst';
 
 export default function Voley() {
   return (
-    <div className="container-div-voley">
+    <div className="container-div-seccionGenerica">
       <NavBrowserBst />
-      <div className="container-banner-voley">
-        <img className="banner-voley" src={bannerVoley} alt="banner voley" />
-        <img className="player-image" src={imgVoley} alt="player" />
-        <div className="container-banner-text-voley">
-          <h2 className="title">¡Clases semanales! Más de 140 inscriptos.</h2>
-          <p className="subtitle">
-            Juveniles y mayores de 18 años. ¡Súmate a nuestra familia!
-          </p>
-        </div>
+      <div className="container-banner-seccionGenerica">
+        <img className="banner-seccionGenerica" src={bannerVoley} alt="banner voley" />
+        
       </div>
-      <div className="container-voleypic-family">
-        <img className="pic-voley1" src={voleyPic} alt="imagen equipo de voley" />
-        <div className="container-text-voley">
+      <div className="container-seccionGenericaPic-family">
+        <img className="pic-seccionGenerica1" src={voleyPic} alt="imagen equipo de voley" />
+        <div className="container-text-seccionGenerica">
           <p>Las clases se desarrollan tanto en las instalaciones de nuestra Pista en el Club como en el Nexo Polideportivo Súmate a nuestra familia. Se vienen lindas experiencias para nuestros Jugadores/as, queremos que seas parte de todo esto.
           </p>
           <p>Profesor juveniles: Andy Javier schwindt</p>

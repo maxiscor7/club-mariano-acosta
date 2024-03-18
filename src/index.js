@@ -11,7 +11,6 @@ import Voley from './routes/Voley/Voley';
 import Basquetbol from './routes/Basquetbol/Basquetbol';
 import FutbolFemenino from './routes/FutboolFemenino/FutbolFemenino';
 import FutbolMasculino from './routes/FutbolMasculino/FutbolMasculino';
-import RitmosUrbanos from './routes/RitmosUrbanos/RitmosUrbanos';
 import PatinArtistico from './routes/PatinArtistico';
 import KickBoxing from './routes/KickBoxing/KickBoxing';
 import Zumba from './routes/Zumba';
@@ -54,10 +53,6 @@ const router = createBrowserRouter([
     {
         path: "/kick-boxing",
         element: <KickBoxing/>,
-    },
-    {
-        path: "/ritmos-urbanos",
-        element: <RitmosUrbanos/>,
     },
     {
         path: "/zumba",

@@ -1,28 +1,22 @@
 import React from 'react'
 import Footer from '../../components/Footer';
-import bannerVoley from "../../assets/banner-voley.jpeg";
-import messi from "../../assets/messi.png";
+import bannerFutMasc from "../../assets/bannerFutMasc.png";
+
 import futInfantil from "../../assets/futInfantil.jpg";
 import './FutbolMasculino.css';
 import NavBrowserBst from '../../components/NavBrowserBst';
 
 export default function FutbolMasculino() {
   return (
-    <div className="container-div-futbolMasculino">
+    <div className="container-div-seccionGenerica">
       <NavBrowserBst />
-      <div className="container-banner-futbolMasculino">
-        <img className="banner-futbolMasculino" src={bannerVoley} alt="banner futbol Masculino" />
-        <img className="player-image-futbolMasculino" src={messi} alt="player" />
-        <div className="container-banner-text-futbolMasculino">
-          <h2 className="title">¡El mejor lugar para entrenar!</h2>
-          <p className="subtitle">
-          ¡Sumate! ya somos mas de 160 alumnos
-          </p>
-        </div>
+      <div className="container-banner-seccionGenerica">
+        <img className="banner-seccionGenerica" src={bannerFutMasc} alt="banner futbol Masculino" />
+        
       </div>
-      <div className="container-futbolMasculinopic-family">
-        <img className="pic-futbolMasculino1" src={futInfantil} alt="equipo de futbol Masculino" />
-        <div className="container-text-futbolMasculino">
+      <div className="container-seccionGenericaPic-family">
+        <img className="pic-seccionGenerica1" src={futInfantil} alt="equipo de futbol Masculino" />
+        <div className="container-text-seccionGenerica">
           <h1>ESCUELITA FUTBOL INFANTIL MASCULINO</h1>
           <p>Nuestra escuelita de Futbol Infantil Masculino crece dia a dia, ya sumamos aproximadamente 160 alumnos, con lindos proyectos para ellos. Son unos de los pilares mas fuerte de nuestras actividades. Niños de 4 a 14 años distribuidos por categorías en dos escuelitas en paralelo, con sus dos practicas semanales y partidos los fin de semana. Escuelita en la que siempre se destaca el acompañamiento de los padres hacia los alumnos, entendiendo el factor recreativo al momento del desarrollo de la actividad por parte de cada uno de nuestros jugadores. Venite la vas a pasar muy bien. Te esperamos C.SyD.M.A
           </p>
