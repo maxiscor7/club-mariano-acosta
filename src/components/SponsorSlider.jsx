@@ -7,10 +7,10 @@ export default function SponsorSlider () {
   return (
     <Carousel controls={false} indicators={false}>
       <Carousel.Item>
-        <img src={spon1} alt='First slide' className='s-block w-100 img-fluid' style={{ height: '300px', objectFit: 'cover' }} />
+        <img src={spon2} alt='First slide' className='s-block w-100 img-fluid' style={{ height: '300px', objectFit: 'cover' }} />
       </Carousel.Item>
       <Carousel.Item>
-        <img src={spon2} alt='Second slide' className='s-block w-100 img-fluid' style={{ height: '300px', objectFit: 'cover' }} />
+        <img src={spon1} alt='Second slide' className='s-block w-100 img-fluid' style={{ height: '300px', objectFit: 'cover' }} />
       </Carousel.Item>
     </Carousel>
   )
