@@ -66,13 +66,10 @@ export default function NavBrowserBst() {
                                     <li><NavLink className="dropdown-item subrrallado" aria-current="page" to={"/futbol-primera"}>Futbol Primera</NavLink></li>
                                     <li><NavLink className="dropdown-item subrrallado" aria-current="page" to={"/hockey"}>Hockey</NavLink></li>
                                     <li><NavLink className="dropdown-item subrrallado" aria-current="page" to={"/kick-boxing"}>Kick Boxing</NavLink></li>
-                                    <li><NavLink className="dropdown-item subrrallado" aria-current="page" to={"/escuela-de-padle"}>Padle</NavLink></li>
                                     <li><NavLink className="dropdown-item subrrallado" aria-current="page" to={"/partin-artistico"}>Partin Artistico</NavLink></li>
-                                    <li><NavLink className="dropdown-item subrrallado" aria-current="page" to={"/reggaeton-infantil"}>Reggaeton Infantil</NavLink></li>
                                     <li><NavLink className="dropdown-item subrrallado" aria-current="page" to={"/rock"}>Rock</NavLink></li>
                                     <li><NavLink className="dropdown-item subrrallado" aria-current="page" to={"/taekwondo"}>Taekwondo</NavLink></li>
                                     <li><NavLink className="dropdown-item subrrallado" aria-current="page" to={"/voley"}>Voley</NavLink></li>
-                                    <li><NavLink className="dropdown-item " aria-current="page" to={"/zumba"}>Zumba</NavLink></li>
                                 </ul>
                             </li>
 
