@@ -32,14 +32,14 @@ export default function NavBrowserBst() {
                             <li className="nav-item">
                                 <NavLink className="nav-link" aria-current="page" to={"/"}>Inicio</NavLink>
                             </li>
-                            <li className="nav-item dropdown">
+                            {/*<li className="nav-item dropdown">
                                 <a className="nav-link dropdown-toggle " role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                     El club
                                 </a>
                                 <ul className="dropdown-menu text-center">
                                     <NavLink className="dropdown-item" aria-current="page" to={"/historia"}>Historia del CSDMA</NavLink>
                                 </ul>
-                            </li>
+                            </li> !!!! esta parte no se si va a continuar, si no continua borrarla definitivamente   !!!! */}
                             <li className="nav-item dropdown">
                                 <a className="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                     Sedes
@@ -59,19 +59,19 @@ export default function NavBrowserBst() {
                                     Disciplinas
                                 </a>
                                 <ul className="dropdown-menu text-center">
-                                    <li><NavLink className="dropdown-item subrrallado" aria-current="page" to={"/taekwondo"}>Taekwondo</NavLink></li>
-                                    <li><NavLink className="dropdown-item subrrallado" aria-current="page" to={"/hockey"}>Hockey</NavLink></li>
-                                    <li><NavLink className="dropdown-item subrrallado" aria-current="page" to={"/futbol-femenino"}>Futbol Femenino </NavLink></li>
-                                    <li><NavLink className="dropdown-item subrrallado" aria-current="page" to={"/reggaeton-infantil"}>Reggaeton Infantil</NavLink></li>
-                                    <li><NavLink className="dropdown-item subrrallado" aria-current="page" to={"/futbol-masculino"}>Futbol Masculino</NavLink></li>
                                     <li><NavLink className="dropdown-item subrrallado" aria-current="page" to={"/basquetbol"}>Basquetbol</NavLink></li>
-                                    <li><NavLink className="dropdown-item subrrallado" aria-current="page" to={"/voley"}>Voley</NavLink></li>
-                                    <li><NavLink className="dropdown-item subrrallado" aria-current="page" to={"/escuela-de-padle"}>Padle</NavLink></li>
-                                    <li><NavLink className="dropdown-item subrrallado" aria-current="page" to={"/rock"}>Rock</NavLink></li>
-                                    <li><NavLink className="dropdown-item subrrallado" aria-current="page" to={"/zumba"}>Zumba</NavLink></li>
+                                    <li><NavLink className="dropdown-item subrrallado" aria-current="page" to={"/folklore"}>Folklore</NavLink></li>
+                                    <li><NavLink className="dropdown-item subrrallado" aria-current="page" to={"/futbol-femenino"}>Futbol Femenino </NavLink></li>
+                                    <li><NavLink className="dropdown-item subrrallado" aria-current="page" to={"/futbol-masculino"}>Futbol Masculino</NavLink></li>
+                                    <li><NavLink className="dropdown-item subrrallado" aria-current="page" to={"/hockey"}>Hockey</NavLink></li>
                                     <li><NavLink className="dropdown-item subrrallado" aria-current="page" to={"/kick-boxing"}>Kick Boxing</NavLink></li>
+                                    <li><NavLink className="dropdown-item subrrallado" aria-current="page" to={"/escuela-de-padle"}>Padle</NavLink></li>
                                     <li><NavLink className="dropdown-item subrrallado" aria-current="page" to={"/partin-artistico"}>Partin Artistico</NavLink></li>
-                                    <li><NavLink className="dropdown-item" aria-current="page" to={"/folklore"}>Folklore</NavLink></li>
+                                    <li><NavLink className="dropdown-item subrrallado" aria-current="page" to={"/reggaeton-infantil"}>Reggaeton Infantil</NavLink></li>
+                                    <li><NavLink className="dropdown-item subrrallado" aria-current="page" to={"/rock"}>Rock</NavLink></li>
+                                    <li><NavLink className="dropdown-item subrrallado" aria-current="page" to={"/taekwondo"}>Taekwondo</NavLink></li>
+                                    <li><NavLink className="dropdown-item subrrallado" aria-current="page" to={"/voley"}>Voley</NavLink></li>
+                                    <li><NavLink className="dropdown-item " aria-current="page" to={"/zumba"}>Zumba</NavLink></li>
                                 </ul>
                             </li>
 

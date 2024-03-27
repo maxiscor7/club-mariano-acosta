@@ -15,7 +15,7 @@ import PatinArtistico from './routes/PatinArtistico/PatinArtistico';
 import KickBoxing from './routes/KickBoxing/KickBoxing';
 import Rock from './routes/Rock/Rock';
 import Historia from './routes/Historia';
-import SedeSocial from './routes/SedeSocial';
+import SedeSocial from './routes/SedeSocial/SedeSocial';
 import AnexoPoli from './routes/AnexoPoli';
 import Folklore from './routes/Folklore/Folklore';
 import Socios from './routes/Socios/Socios';
