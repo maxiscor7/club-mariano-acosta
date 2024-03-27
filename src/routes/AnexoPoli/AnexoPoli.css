@@ -1,0 +1,34 @@
+.container-histMoreImage-anexoPoli {
+    background-image: url('../../assets/imagenAnexo.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 900px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.container-text-histori-sedeSocial {
+    max-width: 800px;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.6);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.container-text-histori-sedeSocial p{
+    
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+
+}
+.container-text-histori-sedeSocial h4{
+    font-weight: bold;
+    color: #1C3168;
+}

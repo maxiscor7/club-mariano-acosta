@@ -15,12 +15,13 @@ import PatinArtistico from './routes/PatinArtistico/PatinArtistico';
 import KickBoxing from './routes/KickBoxing/KickBoxing';
 import Rock from './routes/Rock/Rock';
 import SedeSocial from './routes/SedeSocial/SedeSocial';
-import AnexoPoli from './routes/AnexoPoli';
+import AnexoPoli from './routes/AnexoPoli/AnexoPoli';
 import Folklore from './routes/Folklore/Folklore';
 import Socios from './routes/Socios/Socios';
 import Noticias from './routes/Noticias';
 import Indumentaria from "./routes/Indumentaria";
 import FutbolPrimera from './routes/FutbolPrimera/FutbolPrimera';
+import Padel from './routes/Padel/Padel';
 /*
 import Galeries from './routes/Galeries';
 */
@@ -103,6 +104,10 @@ const router = createBrowserRouter([
     {
         path: "/sede-social",
         element: <SedeSocial/>,
+    },
+    {
+        path: "/padel",
+        element: <Padel/>,
     },/*  --------------- esto sacarlo cuando este disponible galerias para mostrar
     {
         path: "/galeries",
