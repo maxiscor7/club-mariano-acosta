@@ -63,6 +63,7 @@ export default function NavBrowserBst() {
                                     <li><NavLink className="dropdown-item subrrallado" aria-current="page" to={"/folklore"}>Folklore</NavLink></li>
                                     <li><NavLink className="dropdown-item subrrallado" aria-current="page" to={"/futbol-femenino"}>Futbol Femenino </NavLink></li>
                                     <li><NavLink className="dropdown-item subrrallado" aria-current="page" to={"/futbol-masculino"}>Futbol Masculino</NavLink></li>
+                                    <li><NavLink className="dropdown-item subrrallado" aria-current="page" to={"/futbol-primera"}>Futbol Primera</NavLink></li>
                                     <li><NavLink className="dropdown-item subrrallado" aria-current="page" to={"/hockey"}>Hockey</NavLink></li>
                                     <li><NavLink className="dropdown-item subrrallado" aria-current="page" to={"/kick-boxing"}>Kick Boxing</NavLink></li>
                                     <li><NavLink className="dropdown-item subrrallado" aria-current="page" to={"/escuela-de-padle"}>Padle</NavLink></li>

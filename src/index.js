@@ -14,13 +14,13 @@ import FutbolMasculino from './routes/FutbolMasculino/FutbolMasculino';
 import PatinArtistico from './routes/PatinArtistico/PatinArtistico';
 import KickBoxing from './routes/KickBoxing/KickBoxing';
 import Rock from './routes/Rock/Rock';
-import Historia from './routes/Historia';
 import SedeSocial from './routes/SedeSocial/SedeSocial';
 import AnexoPoli from './routes/AnexoPoli';
 import Folklore from './routes/Folklore/Folklore';
 import Socios from './routes/Socios/Socios';
 import Noticias from './routes/Noticias';
 import Indumentaria from "./routes/Indumentaria";
+import FutbolPrimera from './routes/FutbolPrimera/FutbolPrimera';
 /*
 import Galeries from './routes/Galeries';
 */
@@ -93,8 +93,8 @@ const router = createBrowserRouter([
         element: <Socios/>
     },
     {
-        path: "/historia",
-        element: <Historia/>,
+        path: "/futbol-primera",
+        element: <FutbolPrimera/>,
     },
     {
         path: "/noticias",
