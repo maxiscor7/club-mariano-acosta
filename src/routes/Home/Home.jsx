@@ -1,5 +1,4 @@
 import NavBrowserBst from "../../components/NavBrowserBst";
-import banner from "../../assets/banner.png"
 import miniatura1 from "../../assets/miniatura1.jpeg"
 import miniatura2 from "../../assets/miniatura2.jpeg"
 import noti1 from "../../assets/taeNoti.jpeg"
@@ -12,39 +11,33 @@ import logo from "../../assets/logo.png"
 import insta from "../../assets/insta.png";
 import face from "../../assets/face.png";
 import SponsorSlider from "../../components/SponsorSlider";
+import videBanner from '../../assets/videoBanner.mp4'
 
 import './Home.css'
 
 import Footer from "../../components/Footer";
 
-import { useTypewriter } from "react-simple-typewriter";
-import { useState } from "react";
+
 
 
 export default function Home() {
 
-    const [finished, setFinished] = useState(false);
-    const [text] = useTypewriter({
-        words: ['VENI A PARTICIPAR DE TORNEOS, DISFRUTAR Y LLEVAR TU RENDIMIENTO A OTRO NIVEL'],
-        loop: 1,
-        typeSpeed: 60,
-        onComplete: () => setFinished(true), // Callback cuando la animación está completa
-    });
+
 
     return (
         <div className="container-home">
             <NavBrowserBst />
             <div className="conatiner-banner">
-                <img className="banner-img" src={banner} alt="banner actividades" />
-                <div className="container-text-banner-typeRighter">
-                    <span className="span-seleccion">
-                        {text}
-                    </span>
-
+                <div className="video-banner">
+                    <video autoPlay loop muted playsInline className="fullscreen-video">
+                        <source src={videBanner} type="video/mp4" />
+                        {/* Agrega más sources para formatos adicionales si es necesario */}
+                        Your browser does not support the video tag.
+                    </video>
                 </div>
             </div>
             <div class="banner-sponsor1">
-                <SponsorSlider/>
+                <SponsorSlider />
             </div>
 
             <div className="big-container noticias">
