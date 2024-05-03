@@ -16,6 +16,7 @@ import videBanner from '../../assets/videoBanner.mp4'
 import './Home.css'
 
 import Footer from "../../components/Footer";
+import ChatBotMarianoAcosta from "../../components/ChatBotMarianoAcosta/ChatBotMarianoAcosta";
 
 
 
@@ -184,6 +185,7 @@ export default function Home() {
                 </div>
             </div>
             <Footer />
+            <ChatBotMarianoAcosta/>
         </div>
     )
 }
