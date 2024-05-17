@@ -19,7 +19,7 @@ import AnexoPoli from './routes/AnexoPoli/AnexoPoli';
 import Folklore from './routes/Folklore/Folklore';
 import Socios from './routes/Socios/Socios';
 import Noticias from './routes/Noticias';
-import Indumentaria from "./routes/Indumentaria";
+import Indumentaria from "./routes/Indumentaria/Indumentaria";
 import FutbolPrimera from './routes/FutbolPrimera/FutbolPrimera';
 import Padel from './routes/Padel/Padel';
 /*

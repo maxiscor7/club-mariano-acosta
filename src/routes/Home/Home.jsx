@@ -185,7 +185,7 @@ export default function Home() {
                 </div>
             </div>
             <Footer />
-            <ChatBotMarianoAcosta/>
+            
         </div>
     )
 }
