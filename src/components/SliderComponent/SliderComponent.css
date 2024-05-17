@@ -34,3 +34,15 @@
   width: 480px;
   height: 570px;
 }
+
+@media only screen and (max-width: 760px){
+  .expanded{
+    width: 350px;
+    height: 570px;
+  }
+  .expanded img{
+    width: 350px;
+    height: 570px;
+  }
+  
+}
