@@ -17,11 +17,10 @@ export default function Boxeo() {
         <img className="pic-seccionGenerica1" src={boxeoImage} alt="equipo de ritmo urbano" />
         <div className="container-text-seccionGenerica">
          
-          <p>Marianenses Folk es un taller gratuito creado en el año 2020, para niños jóvenes y adultos de todas las edades con la intención de generar espacios que permitan a los alumnos conocer  el patrimonio cultural  y  apreciar nuestra identidad nacional. El sentido de pertenencia se desarrolla en los niños, en la medida en que conocen y valoran las características de su país, enriqueciendo en ellos, el fortalecimiento de la identidad cultural, para que así nuevas generaciones crezcan y se formen sobre la base de un entendimiento mayor de sus propias raíces.</p>
-
-          <p>Se trabajan las danzas populares de todas las regiones del país, acunando y conservando su esencia y tradición, pero también creando y experimentando con las nuevas tendencias y fusiones tanto de música popular como de técnicas de danza.</p>
-          <p>Los/as bailarines/as encuentran un espacio de formación y experimentación particular con un entrenamiento que los prepara desde cero y lo más importante es que es un espacio familiar para compartir y disfrutar.</p>
-          <p>Cuenta con la dirección artística de la Prof. Melany Llanos y la asistencia de la Prof. Jennifer Robledo.</p>
+          <p>Nuestra escuela de boxeo crece día a día, con emocionantes proyectos en marcha para nuestros alumnos.</p>
+          <p>Ofrecemos clases sin límite de edad, con entrenamientos adaptados a distintos niveles de experiencia y condición física.</p>
+          <p>Nuestras prácticas se realizan los martes y viernes a las 18:00 hs, enfocadas en el desarrollo de habilidades técnicas, físicas y mentales. Además, fomentamos un ambiente de camaradería y apoyo mutuo, donde tanto entrenadores como compañeros se motivan a dar lo mejor de sí mismos. Si buscas una actividad que combine disciplina, fuerza y compañerismo, ¡el boxeo es para ti! Vení y sumate a nuestra familia boxística.</p>
+          <p>¡Te esperamos en C.SyD.M.A!</p>
         </div>
 
       </div>
