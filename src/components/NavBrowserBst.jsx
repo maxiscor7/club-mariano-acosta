@@ -60,6 +60,7 @@ export default function NavBrowserBst() {
                                 </a>
                                 <ul className="dropdown-menu text-center">
                                     <li><NavLink className="dropdown-item subrrallado" aria-current="page" to={"/basquetbol"}>Basquetbol</NavLink></li>
+                                    <li><NavLink className="dropdown-item subrrallado" aria-current="page" to={"/boxeo"}>Boxeo</NavLink></li>
                                     <li><NavLink className="dropdown-item subrrallado" aria-current="page" to={"/folklore"}>Folklore</NavLink></li>
                                     <li><NavLink className="dropdown-item subrrallado" aria-current="page" to={"/futbol-femenino"}>Futbol Femenino </NavLink></li>
                                     <li><NavLink className="dropdown-item subrrallado" aria-current="page" to={"/futbol-masculino"}>Futbol Masculino</NavLink></li>

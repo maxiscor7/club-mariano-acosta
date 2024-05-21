@@ -22,6 +22,7 @@ import Noticias from './routes/Noticias';
 import Indumentaria from "./routes/Indumentaria/Indumentaria";
 import FutbolPrimera from './routes/FutbolPrimera/FutbolPrimera';
 import Padel from './routes/Padel/Padel';
+import Boxeo from './routes/Boxeo/Boxeo';
 /*
 import Galeries from './routes/Galeries';
 */
@@ -104,6 +105,10 @@ const router = createBrowserRouter([
     {
         path: "/sede-social",
         element: <SedeSocial/>,
+    },
+    {
+        path: "/boxeo",
+        element: <Boxeo/>,
     },
     {
         path: "/padel",
