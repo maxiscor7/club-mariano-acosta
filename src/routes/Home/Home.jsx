@@ -63,8 +63,8 @@ export default function Home() {
                         </NavLink>
                         <div className="cont-insideContainer-bigone">
 
-                            <div className="noticia-smallones">
-                                <NavLink to={'/asamblea'} style={{ textDecoration: 'none' }}>
+                            <NavLink to={'/asamblea'} style={{ textDecoration: 'none' }}>
+                                <div className="noticia-smallones">
                                     <div className="inside-notiSmallone-container-pic">
                                         <img src={noti4} alt="equipo de hockey" />
                                         <img id="logo-noticias" src={logo} alt="logo del club" />
@@ -77,11 +77,11 @@ export default function Home() {
                                         </div>
 
                                     </div>
-                                </NavLink>
-                            </div>
+                                </div>
+                            </NavLink>
 
-                            <div className="noticia-smallones">
-                                <NavLink to={'/futbol-femenino'} style={{ textDecoration: 'none' }}>
+                            <NavLink to={'/futbol-femenino'} style={{ textDecoration: 'none' }}>
+                                <div className="noticia-smallones">
 
                                     <div className="inside-notiSmallone-container-pic">
                                         <img src={noti3} alt="equipo de futbol femenino" />
@@ -95,15 +95,15 @@ export default function Home() {
                                         </div>
 
                                     </div>
-                                </NavLink>
-                            </div>
+                                </div>
+                            </NavLink>
 
                         </div>
                     </div>
                     <div className="noti-secicion">
 
-                        <div className="noticia-smallones">
-                            <NavLink to={'/taekwondo'} style={{ textDecoration: 'none' }}>
+                        <NavLink to={'/taekwondo'} style={{ textDecoration: 'none' }}>
+                            <div className="noticia-smallones">
                                 <div className="inside-notiSmallone-container-pic">
                                     <img src={noti1} alt="cierre de año en polideportivo" />
                                     <img id="logo-noticias" src={logo} alt="logo del club" />
@@ -115,44 +115,44 @@ export default function Home() {
                                         <p>Veni a entrenar, divertirte y competir.
                                             <br />De lunes a viernes 19:30 a 21 hs.</p></div>
                                 </div>
-                            </NavLink>
-
-                        </div>
-
-                        <div className="noticia-smallones">
-                            <NavLink to={'/basquetbol'} style={{ textDecoration: 'none' }}>
-                            <div className="inside-notiSmallone-container-pic">
-                                <img src={noti5} alt="equipo de futbol femenino" />
-                                <img id="logo-noticias" src={logo} alt="logo del club" />
-                                <h1>BASQUET</h1>
 
                             </div>
-                            <div className="inside-notiSmallone-container-text">
-                                <div className="mini-noti-container-text">
-                                    <p>Así disfrutamos del amistoso femenino de básquet.
-                                        <br />¿Que esperas para sumarte?</p>
+                        </NavLink>
+
+                        <NavLink to={'/basquetbol'} style={{ textDecoration: 'none' }}>
+                            <div className="noticia-smallones">
+                                <div className="inside-notiSmallone-container-pic">
+                                    <img src={noti5} alt="equipo de futbol femenino" />
+                                    <img id="logo-noticias" src={logo} alt="logo del club" />
+                                    <h1>BASQUET</h1>
+
+                                </div>
+                                <div className="inside-notiSmallone-container-text">
+                                    <div className="mini-noti-container-text">
+                                        <p>Así disfrutamos del amistoso femenino de básquet.
+                                            <br />¿Que esperas para sumarte?</p>
+                                    </div>
                                 </div>
                             </div>
-                            </NavLink>
-                        </div>
+                        </NavLink>
 
-                        <div className="noticia-smallones">
-                            <NavLink to={'/futbol-masculino'} style={{ textDecoration: 'none' }}>
-                            <div className="inside-notiSmallone-container-pic">
-                                <img src={noti6} alt="equipo de futbol femenino" />
-                                <img id="logo-noticias" src={logo} alt="logo del club" />
-                                <h1>FUTBOL INFANTIL</h1>
+                        <NavLink to={'/futbol-masculino'} style={{ textDecoration: 'none' }}>
+                            <div className="noticia-smallones">
+                                <div className="inside-notiSmallone-container-pic">
+                                    <img src={noti6} alt="equipo de futbol femenino" />
+                                    <img id="logo-noticias" src={logo} alt="logo del club" />
+                                    <h1>FUTBOL INFANTIL</h1>
 
-                            </div>
-                            <div className="inside-notiSmallone-container-text">
-                                <div className="mini-noti-container-text">
-                                    <p>Empieza el torneo 2024.
-                                        <br />Ya somos mas de 160 alumnos.</p>
-                                    <h4>¡ANOTATE!</h4>
+                                </div>
+                                <div className="inside-notiSmallone-container-text">
+                                    <div className="mini-noti-container-text">
+                                        <p>Empieza el torneo 2024.
+                                            <br />Ya somos mas de 160 alumnos.</p>
+                                        <h4>¡ANOTATE!</h4>
+                                    </div>
                                 </div>
                             </div>
-                            </NavLink>
-                        </div>
+                        </NavLink>
 
                     </div>
                 </div>
