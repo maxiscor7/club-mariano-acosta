@@ -81,7 +81,9 @@ export default function NavBrowserBst() {
                                 </a>
                                 <ul className="dropdown-menu text-center">
                                     <li>
-                                        <NavLink className="dropdown-item" aria-current="page" to={"/socios"}>Como asociarse</NavLink>
+                                        <NavLink className="dropdown-item subrrallado" aria-current="page" to={"/socios"}>Como asociarse</NavLink>
+                                        <NavLink className="dropdown-item subrrallado" aria-current="page" to={"/socios"}>Beneficios para Socios</NavLink>
+                                        <NavLink className="dropdown-item" aria-current="page" to={"/socios"}>Cierre de ciclo 2024</NavLink>
                                     </li>
                                 </ul>
                             </li>

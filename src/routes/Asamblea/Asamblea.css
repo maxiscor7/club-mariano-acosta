@@ -1,0 +1,40 @@
+.container-rutaseccionInfo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+}
+.container-rutaseccionInfo h1{
+    margin-bottom: 40px;
+    margin-top: 40px;
+    color: #fff;
+}
+.container-rutaseccionInfo h4{
+    margin-top: 20px;
+    color: #fff;
+}
+
+.pic-rutaseccionInfo{
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+.container-text-rutaseccionInfo{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 10px;
+    max-width: 900px;
+}
+.container-text-rutaseccionInfo li{
+    color: rgb(207, 202, 202);
+}
+.container-text-rutaseccionInfo label{
+    color: rgb(207, 202, 202);
+    margin-bottom: 10px;
+}
+@media (min-width: 1000px) {
+    .pic-rutaseccionInfo {
+        width: 60%;
+    }
+}

@@ -23,6 +23,8 @@ import Indumentaria from "./routes/Indumentaria/Indumentaria";
 import FutbolPrimera from './routes/FutbolPrimera/FutbolPrimera';
 import Padel from './routes/Padel/Padel';
 import Boxeo from './routes/Boxeo/Boxeo';
+import Asamblea from './routes/Asamblea/Asamblea';
+import Aniversario from './routes/Aniversario/Aniversario';
 /*
 import Galeries from './routes/Galeries';
 */
@@ -113,7 +115,15 @@ const router = createBrowserRouter([
     {
         path: "/padel",
         element: <Padel/>,
-    },/*  --------------- esto sacarlo cuando este disponible galerias para mostrar
+    },
+    {
+        path: "/asamblea",
+        element: <Asamblea/>,
+    },
+    {
+        path: "/aniversario",
+        element: <Aniversario/>,
+    }/*  --------------- esto sacarlo cuando este disponible galerias para mostrar
     {
         path: "/galeries",
         element: <Galeries />,
