@@ -33,7 +33,7 @@ const Asamblea = () => {
                         <li>Vocales titulares: Vicente Galati, Elba Rosa Curti, Alejandra N. Sosa, José Galati y Susana Morel.</li>
                         <li>Vocales suplentes: Stella Maris Pusitanelle, Inés Lucía Caballero, Jorge Barra y Manuel B. Rodríguez.</li>
                         <li>Comisión Revisora de Cuentas titulares: Juan Carlos Iglesias, Natalia P. Molina y Martín A. Calderón.</li>
-                        <li>Comisión Revisora de Cuentas suplentes: Oscar Gallardo y Jorde D. De Sousa.</li>
+                        <li>Comisión Revisora de Cuentas suplentes: Oscar Gallardo y Jorge D. De Sousa.</li>
                     </ul>
                 </div>
 
