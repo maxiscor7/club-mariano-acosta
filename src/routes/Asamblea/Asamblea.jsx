@@ -29,7 +29,7 @@ const Asamblea = () => {
                         <li>Secretario, Rodrigo G. Villalba</li>
                         <li>Prosecretario, Carlos J. Polero</li>
                         <li>Tesorero, Horacio N. Buzetti</li>
-                        <li>Protesorero, Estala S. Padula</li>
+                        <li>Protesorero, Estela S. Padula</li>
                         <li>Vocales titulares: Vicente Galati, Elba Rosa Curti, Alejandra N. Sosa, José Galati y Susana Morel.</li>
                         <li>Vocales suplentes: Stella Maris Pusitanelle, Inés Lucía Caballero, Jorge Barra y Manuel B. Rodríguez.</li>
                         <li>Comisión Revisora de Cuentas titulares: Juan Carlos Iglesias, Natalia P. Molina y Martín A. Calderón.</li>
