@@ -25,6 +25,7 @@ import Padel from './routes/Padel/Padel';
 import Boxeo from './routes/Boxeo/Boxeo';
 import Asamblea from './routes/Asamblea/Asamblea';
 import Aniversario from './routes/Aniversario/Aniversario';
+import CierreCiclo from './routes/CierreCiclo/CierreCiclo';
 /*
 import Galeries from './routes/Galeries';
 */
@@ -119,6 +120,10 @@ const router = createBrowserRouter([
     {
         path: "/asamblea",
         element: <Asamblea/>,
+    },
+    {
+        path: "/cierre-ciclo",
+        element: <CierreCiclo/>,
     },
     {
         path: "/aniversario",

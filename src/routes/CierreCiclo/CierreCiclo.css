@@ -1,0 +1,24 @@
+.container-button-formulario-cierreDeCiclo{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.button-inside-cierreDeCiclo{
+    background-color: #0d6efd;
+    width: 130px;
+    height: 40px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.button-inside-cierreDeCiclo a {
+    text-decoration: none;
+    color: #fff;
+}
