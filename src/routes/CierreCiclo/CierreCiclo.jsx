@@ -34,7 +34,7 @@ const CierreCiclo = () => {
                     <div className="container-button-formulario-cierreDeCiclo">
                     <h2><font color="#ffffff">¡Completa el formulario Aca abajo!</font></h2>
                         <div className="button-inside-cierreDeCiclo">
-                            <a href="https://forms.gle/rNb4gnwgh1L35EuW6" target='_blank' rel="noreferrer" >¡Click Aqui!</a>
+                            <a href="https://forms.gle/tKgyDGRSW7nqQJNq5" target='_blank' rel="noreferrer" >¡Click Aqui!</a>
                         </div>
                     </div>
                 </div>
