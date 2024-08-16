@@ -163,8 +163,8 @@ export default function Home() {
                     <h1>{`Videos >`} </h1>
                 </div>
                 <div className="conatiner-miniaturas-videos">
-                <div className="miniatura">
-                        <a href="https://www.youtube.com/watch?v=4tsN43DT5kc&t=3s" target="_blank" rel="noreferrer">
+                    <div className="miniatura">
+                        <a href="https://www.youtube.com/shorts/RAxnasxB4kQ" target="_blank" rel="noreferrer">
                             <img src={miniatura3} alt="miniatura video" />
                         </a>
                         <div className="container-text-miniatura">
@@ -190,7 +190,7 @@ export default function Home() {
                             <p>El pasado 9 febrero Mariano Acosta se enfrento contra La sub 21, el partido fue super apretado con un resultado de 5 a 4, saliendo como vencedor La sub 21. Mira todo el partido aca!</p>
                         </div>
                     </div>
-                    
+
                 </div>
             </div>
             <Footer />
