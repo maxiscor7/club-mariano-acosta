@@ -7,7 +7,7 @@ import noti2 from "../../assets/aniversario.jpeg"
 import noti3 from "../../assets/futFem.jpeg"
 import noti4 from "../../assets/Asamblea.jpeg"
 import noti5 from "../../assets/basqNoti.jpg"
-import noti6 from "../../assets/futInfNoti.jpg"
+import noti6 from "../../assets/hockey.jpg"
 import logo from "../../assets/logo.png"
 import SponsorSlider from "../../components/SponsorSlider";
 import videBanner from '../../assets/videoBanner.mp4'
@@ -137,18 +137,18 @@ export default function Home() {
                             </div>
                         </NavLink>
 
-                        <NavLink to={'/futbol-masculino'} style={{ textDecoration: 'none' }}>
+                        <NavLink to={'/hockey'} style={{ textDecoration: 'none' }}>
                             <div className="noticia-smallones">
                                 <div className="inside-notiSmallone-container-pic">
-                                    <img src={noti6} alt="equipo de futbol femenino" />
+                                    <img src={noti6} alt="equipo de hockey" />
                                     <img id="logo-noticias" src={logo} alt="logo del club" />
-                                    <h1>FUTBOL INFANTIL</h1>
+                                    <h1>HOCKEY</h1>
 
                                 </div>
                                 <div className="inside-notiSmallone-container-text">
                                     <div className="mini-noti-container-text">
-                                        <p>Empieza el torneo 2024.
-                                            <br />Ya somos mas de 160 alumnos.</p>
+                                        <p>¡Aprende, juega y diviértete con nosotros!
+                                            <br /> ¿QUÉ ESTÁS ESPERANDO?.</p>
                                         <h4>¡ANOTATE!</h4>
                                     </div>
                                 </div>
