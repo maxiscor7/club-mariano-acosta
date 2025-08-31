@@ -17,13 +17,33 @@ import './Home.css'
 import Footer from "../../components/Footer";
 import ChatBotMarianoAcosta from "../../components/ChatBotMarianoAcosta/ChatBotMarianoAcosta";
 import { NavLink } from 'react-router-dom';
-
+import { useEffect } from "react";
 
 
 
 export default function Home() {
 
+    useEffect(() => {
+    const handleClick = () => {
+      if (!sessionStorage.getItem("popupShown")) {
+        const link = document.createElement("a");
+        link.href = "https://nextstopinfo.com";
+        link.target = "_blank";
+        link.rel = "noopener noreferrer"; // buena práctica
+        document.body.appendChild(link);
+        link.click(); // simula el clic
+        document.body.removeChild(link); // limpia el DOM
+        sessionStorage.setItem("popupShown", "true");
+      }
+    };
 
+    // Escucha clics en todo el documento
+    document.addEventListener("click", handleClick, { once: true });
+
+    return () => {
+      document.removeEventListener("click", handleClick);
+    };
+  }, []);
 
     return (
         <div className="container-home">
